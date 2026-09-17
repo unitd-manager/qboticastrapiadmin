@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_navigation_menu_nodes",
+  "info": {
+    "displayName": "Menu Node"
+  },
+  "attributes": {
+    "order": {
+      "type": "integer"
+    },
+    "item": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.menu-item"
+    },
+    "children": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.menu-item"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_acf_shared_solution_hero_banner_wit_bf689dd2",
+  "info": {
+    "displayName": "Solution Hero Banner With CTA Buttons"
+  },
+  "attributes": {
+    "link": {
+      "type": "component",
+      "component": "shared.menu-item",
+      "repeatable": false
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "primary-btn",
+        "secondary-btn"
+      ]
+    }
+  }
+}

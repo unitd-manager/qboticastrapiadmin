@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_acf_shared_about_client_logo_sectio_604a0fed",
+  "info": {
+    "displayName": "Client Logo Section Client Logos"
+  },
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

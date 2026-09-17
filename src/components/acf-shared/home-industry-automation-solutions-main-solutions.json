@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_acf_shared_home_industry_automation_8d5c6564",
+  "info": {
+    "displayName": "Home Industry Automation Solutions Main Solutions"
+  },
+  "attributes": {
+    "main_title": {
+      "type": "string"
+    },
+    "solutions_list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "acf-shared.home-industry-automation-solutions-main-solutions-solutions-list"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_acf_shared_service_overview_overview_list",
+  "info": {
+    "displayName": "Service Overview Overview List"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

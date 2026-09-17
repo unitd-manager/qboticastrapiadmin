@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_acf_shared_career_openings_section__396f16a0",
+  "info": {
+    "displayName": "Career Openings Section Job Openings Job Section"
+  },
+  "attributes": {
+    "section_title": {
+      "type": "string"
+    },
+    "section_content": {
+      "type": "richtext"
+    }
+  }
+}

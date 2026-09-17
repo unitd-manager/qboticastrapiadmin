@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_acf_shared_industry_highlight_block_list",
+  "info": {
+    "displayName": "Industry Highlight Block List"
+  },
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "button": {
+      "type": "component",
+      "component": "shared.menu-item",
+      "repeatable": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

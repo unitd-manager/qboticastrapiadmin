@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_acf_shared_healthcare_automation_ta_17416dd9",
+  "info": {
+    "displayName": "Healthcare Automation Tabs Tabs Tab List"
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

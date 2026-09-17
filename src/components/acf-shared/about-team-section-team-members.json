@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_acf_shared_about_team_section_team_members",
+  "info": {
+    "displayName": "Team Section Team Members"
+  },
+  "attributes": {
+    "member": {
+      "type": "component",
+      "repeatable": true,
+      "component": "acf-shared.about-team-section-team-members-member"
+    }
+  }
+}

@@ -1,0 +1,832 @@
+{
+  "data": {
+    "title": "Pricing",
+    "slug": "pricing",
+    "acf": {
+      "rank_math_seo_score": "23",
+      "rank_math_contentai_score": {
+        "keywords": "74.51",
+        "wordCount": "0",
+        "linkCount": "0",
+        "headingCount": "0",
+        "mediaCount": "0"
+      },
+      "layouts_0_layout_type": "banner_layout",
+      "layouts_0_banner_layout_page_type": "service",
+      "layouts_0_banner_layout_main_title": "Unlock Seamless Automation with qBotica",
+      "layouts_0_banner_layout_sub_title": "",
+      "layouts_0_banner_layout_description": "All-in-One Services, Licenses, and Hosting Packages\r\nCustomized Pricing for Your Needs that is Simple and Reliable",
+      "layouts_0_banner_layout_button": {
+        "title": "Speak With An Expert",
+        "url": "/services/request-a-quote",
+        "target": ""
+      },
+      "layouts_0_banner_layout": "",
+      "layouts_0_section_space_padding_padding_options": "0",
+      "layouts_0_section_space_padding": "",
+      "layouts": "7",
+      "rank_math_internal_links_processed": "1",
+      "layouts_1_layout_type": "package_card_section",
+      "layouts_1_package_card_section_main_title": "Automation as A Service Packages*",
+      "layouts_1_package_card_section_package_cards_0_column": "col-md-4",
+      "layouts_1_package_card_section_package_cards_0_package_title": "Automation Starter",
+      "layouts_1_package_card_section_package_cards_0_package_subtitle": "3 Bot Package",
+      "layouts_1_package_card_section_package_cards_0_price": "$ 9,000",
+      "layouts_1_package_card_section_package_cards_0_price_note": "starting at",
+      "layouts_1_package_card_section_package_cards_0_features_0_feature_item": "Bot Design, Development and Testing",
+      "layouts_1_package_card_section_package_cards_0_features_1_feature_item": "Required UiPath Licenses",
+      "layouts_1_package_card_section_package_cards_0_features_2_feature_item": "Automation Support & Fixes",
+      "layouts_1_package_card_section_package_cards_0_features_3_feature_item": "Cloud Hosting and Management",
+      "layouts_1_package_card_section_package_cards_0_features_4_feature_item": "Un-Attended Digital Worker",
+      "layouts_1_package_card_section_package_cards_0_features": "5",
+      "layouts_1_package_card_section_package_cards_0_cta_button": {
+        "title": "Request a Quote",
+        "url": "/services/request-a-quote",
+        "target": ""
+      },
+      "layouts_1_package_card_section_package_cards": "3",
+      "layouts_1_package_card_section": "",
+      "layouts_1_section_space_padding_padding_options": "1",
+      "layouts_1_section_space_padding_padding_position": [
+        "top",
+        "bottom"
+      ],
+      "layouts_1_section_space_padding_desktop_padding_padding_top_desktop": "60",
+      "layouts_1_section_space_padding_desktop_padding_padding_bottom_desktop": "20",
+      "layouts_1_section_space_padding_desktop_padding": "",
+      "layouts_1_section_space_padding_mobile_padding_padding_top_mobile": "50",
+      "layouts_1_section_space_padding_mobile_padding_padding_bottom_mobile": "10",
+      "layouts_1_section_space_padding_mobile_padding": "",
+      "layouts_1_section_space_padding": "",
+      "layouts_1_package_card_section_package_cards_1_column": "col-md-4",
+      "layouts_1_package_card_section_package_cards_1_package_title": "Automation Foundation",
+      "layouts_1_package_card_section_package_cards_1_package_subtitle": "5 Bot Package",
+      "layouts_1_package_card_section_package_cards_1_price": "$ 20,000",
+      "layouts_1_package_card_section_package_cards_1_price_note": "starting at",
+      "layouts_1_package_card_section_package_cards_1_features_0_feature_item": "Bot Design, Development and Testing",
+      "layouts_1_package_card_section_package_cards_1_features_1_feature_item": "Required UiPath Licenses",
+      "layouts_1_package_card_section_package_cards_1_features_2_feature_item": "Automation Support & Fixes",
+      "layouts_1_package_card_section_package_cards_1_features_3_feature_item": "Cloud Hosting and Management",
+      "layouts_1_package_card_section_package_cards_1_features_4_feature_item": "Un-Attended & Attended Digital Workers",
+      "layouts_1_package_card_section_package_cards_1_features_5_feature_item": "Technical Health Assessment",
+      "layouts_1_package_card_section_package_cards_1_features": "6",
+      "layouts_1_package_card_section_package_cards_1_cta_button": {
+        "title": "Request a Quote",
+        "url": "/services/request-a-quote",
+        "target": ""
+      },
+      "layouts_1_package_card_section_package_cards_2_column": "col-md-4",
+      "layouts_1_package_card_section_package_cards_2_package_title": "Automation Platinum - Enterprise",
+      "layouts_1_package_card_section_package_cards_2_package_subtitle": "10+ Bot Package",
+      "layouts_1_package_card_section_package_cards_2_price": "$ 47,000",
+      "layouts_1_package_card_section_package_cards_2_price_note": "starting at",
+      "layouts_1_package_card_section_package_cards_2_features_0_feature_item": "Bot Design, Development and Testing",
+      "layouts_1_package_card_section_package_cards_2_features_1_feature_item": "Required UiPath Licenses",
+      "layouts_1_package_card_section_package_cards_2_features_2_feature_item": "Automation Support & Fixes",
+      "layouts_1_package_card_section_package_cards_2_features_3_feature_item": "Cloud Hosting and Management",
+      "layouts_1_package_card_section_package_cards_2_features_4_feature_item": "Un-Attended & Attended",
+      "layouts_1_package_card_section_package_cards_2_features_5_feature_item": "Technical Health Assessment",
+      "layouts_1_package_card_section_package_cards_2_features_6_feature_item": "Automation Dashboard",
+      "layouts_1_package_card_section_package_cards_2_features_7_feature_item": "Automation Pipeline Advisory",
+      "layouts_1_package_card_section_package_cards_2_features_8_feature_item": "Root Cause Analysis for Urgent Incidents",
+      "layouts_1_package_card_section_package_cards_2_features_9_feature_item": "Expanded Incident Support Window",
+      "layouts_1_package_card_section_package_cards_2_features": "10",
+      "layouts_1_package_card_section_package_cards_2_cta_button": {
+        "title": "Request a Quote",
+        "url": "/services/request-a-quote",
+        "target": ""
+      },
+      "layouts_2_layout_type": "info_cta_box",
+      "layouts_2_info_cta_box_display_options": [
+        "sub_title",
+        "description"
+      ],
+      "layouts_2_info_cta_box_sub_title": "<h4><strong>Harveer Singh</strong></h4>\r\nWestern Union",
+      "layouts_2_info_cta_box_description": "“The qBotica team has always displayed a high level of professionalism and the competency to bring real life and practical suggestions. These solutions have significantly transformed how we do business both from externally facing processes to back-office operations. ”",
+      "layouts_2_info_cta_box": "",
+      "layouts_2_section_space_padding_padding_options": "1",
+      "layouts_2_section_space_padding_padding_position": [
+        "top",
+        "bottom"
+      ],
+      "layouts_2_section_space_padding_desktop_padding_padding_top_desktop": "10",
+      "layouts_2_section_space_padding_desktop_padding_padding_bottom_desktop": "60",
+      "layouts_2_section_space_padding_desktop_padding": "",
+      "layouts_2_section_space_padding_mobile_padding_padding_top_mobile": "10",
+      "layouts_2_section_space_padding_mobile_padding_padding_bottom_mobile": "50",
+      "layouts_2_section_space_padding_mobile_padding": "",
+      "layouts_2_section_space_padding": "",
+      "layouts_3_layout_type": "grid_layout",
+      "layouts_3_grid_layout_display_options": [
+        "main_title",
+        "description",
+        "cta_button"
+      ],
+      "layouts_3_grid_layout_main_title": "Intelligent Document Processing Packages",
+      "layouts_3_grid_layout_description": "Our Intelligent Document Processing (IDP) Packages offer an array of features that cater to your automation needs, enabling your company to achieve new levels of efficiency and productivity. Let’s delve into how these features can significantly benefit various industries.",
+      "layouts_3_grid_layout_cta_button": {
+        "title": "View IDP Packages",
+        "url": "/services/intelligent-document-processing-idp-pricing",
+        "target": ""
+      },
+      "layouts_3_grid_layout_class_name": "grid-service-layout-1",
+      "layouts_3_grid_layout_id": "grid-service-layout-1",
+      "layouts_3_grid_layout": "",
+      "layouts_3_section_space_padding_padding_options": "1",
+      "layouts_3_section_space_padding": "",
+      "layouts_3_section_space_padding_padding_position": [
+        "bottom"
+      ],
+      "layouts_3_section_space_padding_desktop_padding_padding_bottom_desktop": "60",
+      "layouts_3_section_space_padding_desktop_padding": "",
+      "layouts_3_section_space_padding_mobile_padding_padding_bottom_mobile": "50",
+      "layouts_3_section_space_padding_mobile_padding": "",
+      "layouts_4_layout_type": "grid_layout",
+      "layouts_4_grid_layout_display_options": [
+        "main_title",
+        "description",
+        "cta_button"
+      ],
+      "layouts_4_grid_layout_main_title": "Why Automation as a Service?",
+      "layouts_4_grid_layout_description": "As CIOs and Technology Leaders, we understand the challenges you face in implementing and scaling automation programs within your organizations. That’s why Automation Cube, our dedicated Managed Service Provider (MSP) program, brings together the right technology, infrastructure, and expertise to empower your Automation Program’s success.\r\n\r\nUnlike traditional automation providers with complex licensing structures, qBotica simplifies the process. Our Automation as a Service model eliminates the need for annual licensing purchases based on run-times, ensuring you only pay for what you truly need. Say goodbye to inflated costs and unnecessary investments.\r\n\r\nWe also recognize the complexities of setting up automation IT and infrastructure, which can be a significant burden. With Automation Cube, our experienced team will manage your best-of-breed technology stack and automation infrastructure, allowing you to focus on strategic initiatives while we handle the technical intricacies.",
+      "layouts_4_grid_layout_cta_button": {
+        "title": "Speak With An Expert",
+        "url": "/services/request-a-quote/",
+        "target": ""
+      },
+      "layouts_4_grid_layout_class_name": "",
+      "layouts_4_grid_layout_id": "",
+      "layouts_4_grid_layout": "",
+      "layouts_4_section_space_padding_padding_options": "0",
+      "layouts_4_section_space_padding": "",
+      "layouts_1_package_card_section_package_cards_0_price_plan": "/ month",
+      "layouts_1_package_card_section_package_cards_1_price_plan": "/ month",
+      "layouts_1_package_card_section_package_cards_2_price_plan": "/ month",
+      "layouts_1_package_card_section_class_name": "service-package-sec",
+      "layouts_1_package_card_section_id": "",
+      "layouts_5_layout_type": "benefits_grid_layout",
+      "layouts_5_benefits_grid_layout_main_title": "MSP Packages Features and Options",
+      "layouts_5_benefits_grid_layout_description": "",
+      "layouts_5_benefits_grid_layout_button": "",
+      "layouts_5_benefits_grid_layout_features_0_column": "col-md-4",
+      "layouts_5_benefits_grid_layout_features_0_image_type": "icon",
+      "layouts_5_benefits_grid_layout_features_0_icon": "2770",
+      "layouts_5_benefits_grid_layout_features_0_title": "Bot Design, Development, and Testing",
+      "layouts_5_benefits_grid_layout_features_0_type": "description",
+      "layouts_5_benefits_grid_layout_features_0_text_align": "left",
+      "layouts_5_benefits_grid_layout_features_0_description": "Our experts will work closely with your team to design, develop, and thoroughly test automation bots. These bots are tailored to suit your unique requirements, ensuring that your processes are streamlined and optimized.",
+      "layouts_5_benefits_grid_layout_features_1_column": "col-md-4",
+      "layouts_5_benefits_grid_layout_features_1_image_type": "icon",
+      "layouts_5_benefits_grid_layout_features_1_icon": "2794",
+      "layouts_5_benefits_grid_layout_features_1_title": "Process Complexity Flexibility",
+      "layouts_5_benefits_grid_layout_features_1_type": "description",
+      "layouts_5_benefits_grid_layout_features_1_text_align": "left",
+      "layouts_5_benefits_grid_layout_features_1_description": "Our experts will work closely with your team to design, develop, and thoroughly test automation bots. These bots are tailored to suit your unique requirements, ensuring that your processes are streamlined and optimized.",
+      "layouts_5_benefits_grid_layout_features_2_column": "col-md-4",
+      "layouts_5_benefits_grid_layout_features_2_image_type": "icon",
+      "layouts_5_benefits_grid_layout_features_2_icon": "2795",
+      "layouts_5_benefits_grid_layout_features_2_title": "UiPathLicenses",
+      "layouts_5_benefits_grid_layout_features_2_type": "description",
+      "layouts_5_benefits_grid_layout_features_2_text_align": "left",
+      "layouts_5_benefits_grid_layout_features_2_description": "Access to the required UiPath licenses is seamlessly integrated into the package. This means you can harness the power of UiPath's cutting-edge automation platform without any hassle.",
+      "layouts_5_benefits_grid_layout_features_3_column": "col-md-4",
+      "layouts_5_benefits_grid_layout_features_3_image_type": "icon",
+      "layouts_5_benefits_grid_layout_features_3_icon": "2786",
+      "layouts_5_benefits_grid_layout_features_3_title": "Automation Support & Fixes*",
+      "layouts_5_benefits_grid_layout_features_3_type": "description",
+      "layouts_5_benefits_grid_layout_features_3_text_align": "left",
+      "layouts_5_benefits_grid_layout_features_3_description": "With our package, you'll receive dedicated automation support and prompt fixes whenever needed. Our team is committed to ensuring that your automation ecosystem functions flawlessly.",
+      "layouts_5_benefits_grid_layout_features_4_column": "col-md-4",
+      "layouts_5_benefits_grid_layout_features_4_image_type": "icon",
+      "layouts_5_benefits_grid_layout_features_4_icon": "2787",
+      "layouts_5_benefits_grid_layout_features_4_title": "Cloud Hosting and Management",
+      "layouts_5_benefits_grid_layout_features_4_type": "description",
+      "layouts_5_benefits_grid_layout_features_4_text_align": "left",
+      "layouts_5_benefits_grid_layout_features_4_description": "Effortlessly manage your automation infrastructure with our cloud hosting services. From unattended to attended automation, our experts ensure that your bots run efficiently and smoothly.",
+      "layouts_5_benefits_grid_layout_features_5_column": "col-md-4",
+      "layouts_5_benefits_grid_layout_features_5_image_type": "icon",
+      "layouts_5_benefits_grid_layout_features_5_icon": "2788",
+      "layouts_5_benefits_grid_layout_features_5_title": "Technical Health Assessment",
+      "layouts_5_benefits_grid_layout_features_5_type": "description",
+      "layouts_5_benefits_grid_layout_features_5_text_align": "left",
+      "layouts_5_benefits_grid_layout_features_5_description": "Regular check-ups are crucial for maintaining a healthy automation environment. Our technical health assessment helps identify any potential issues and ensures your automation processes are optimized for peak performance.",
+      "layouts_5_benefits_grid_layout_features_6_column": "col-md-4",
+      "layouts_5_benefits_grid_layout_features_6_image_type": "icon",
+      "layouts_5_benefits_grid_layout_features_6_icon": "2789",
+      "layouts_5_benefits_grid_layout_features_6_title": "Automation Dashboard",
+      "layouts_5_benefits_grid_layout_features_6_type": "description",
+      "layouts_5_benefits_grid_layout_features_6_text_align": "left",
+      "layouts_5_benefits_grid_layout_features_6_description": "Stay in control with our automation dashboard that provides real-time insights into the performance of your bots. Monitor progress, track achievements, and make informed decisions based on comprehensive data.",
+      "layouts_5_benefits_grid_layout_features_7_column": "col-md-4",
+      "layouts_5_benefits_grid_layout_features_7_image_type": "icon",
+      "layouts_5_benefits_grid_layout_features_7_icon": "2790",
+      "layouts_5_benefits_grid_layout_features_7_title": "Automation Pipeline Advisory",
+      "layouts_5_benefits_grid_layout_features_7_type": "description",
+      "layouts_5_benefits_grid_layout_features_7_text_align": "left",
+      "layouts_5_benefits_grid_layout_features_7_description": "Plan ahead with our automation pipeline advisory service. We help you strategize the deployment of future automation projects, ensuring a continuous improvement cycle.",
+      "layouts_5_benefits_grid_layout_features_8_column": "col-md-4",
+      "layouts_5_benefits_grid_layout_features_8_image_type": "icon",
+      "layouts_5_benefits_grid_layout_features_8_icon": "2791",
+      "layouts_5_benefits_grid_layout_features_8_title": "Root Cause Analysis for Urgent Incidents",
+      "layouts_5_benefits_grid_layout_features_8_type": "description",
+      "layouts_5_benefits_grid_layout_features_8_text_align": "left",
+      "layouts_5_benefits_grid_layout_features_8_description": "In the event of urgent incidents, our package offers root cause analysis to swiftly identify and address issues. This minimizes downtime and keeps your automation operations running smoothly.",
+      "layouts_5_benefits_grid_layout_features_9_column": "col-md-4",
+      "layouts_5_benefits_grid_layout_features_9_image_type": "icon",
+      "layouts_5_benefits_grid_layout_features_9_icon": "2792",
+      "layouts_5_benefits_grid_layout_features_9_title": "Expanded Incident Support Window",
+      "layouts_5_benefits_grid_layout_features_9_type": "description",
+      "layouts_5_benefits_grid_layout_features_9_text_align": "left",
+      "layouts_5_benefits_grid_layout_features_9_description": "We understand the importance of uninterrupted operations. Our expanded incident support window ensures that you have assistance whenever you need it, around the clock.",
+      "layouts_5_benefits_grid_layout_features_10_column": "col-md-4",
+      "layouts_5_benefits_grid_layout_features_10_image_type": "icon",
+      "layouts_5_benefits_grid_layout_features_10_icon": "2793",
+      "layouts_5_benefits_grid_layout_features_10_title": "Product RoadMap and Capability Advisory",
+      "layouts_5_benefits_grid_layout_features_10_type": "description",
+      "layouts_5_benefits_grid_layout_features_10_text_align": "left",
+      "layouts_5_benefits_grid_layout_features_10_description": "Stay ahead of the curve with insights into the product roadmap and capability advisory. Our experts guide you on harnessing the latest automation advancements for your business.",
+      "layouts_5_benefits_grid_layout_features": "11",
+      "layouts_5_benefits_grid_layout_class_name": "msp-features",
+      "layouts_5_benefits_grid_layout_id": "",
+      "layouts_5_benefits_grid_layout": "",
+      "layouts_5_section_space_padding_padding_options": "1",
+      "layouts_5_section_space_padding": "",
+      "layouts_5_section_space_padding_padding_position": [
+        "top",
+        "bottom"
+      ],
+      "layouts_5_section_space_padding_desktop_padding_padding_top_desktop": "60",
+      "layouts_5_section_space_padding_desktop_padding_padding_bottom_desktop": "35",
+      "layouts_5_section_space_padding_desktop_padding": "",
+      "layouts_5_section_space_padding_mobile_padding_padding_top_mobile": "50",
+      "layouts_5_section_space_padding_mobile_padding_padding_bottom_mobile": "25",
+      "layouts_5_section_space_padding_mobile_padding": "",
+      "layouts_2_info_cta_box_main_title": "“The qBotica team has always displayed a high level of professionalism and the competency to bring real life and practical suggestions. These solutions have significantly transformed how we do business both from externally facing processes to back-office operations. ”",
+      "layouts_6_layout_type": "footer_common_cta",
+      "layouts_6_footer_common_cta_display_options": [
+        "main_title",
+        "description",
+        "cta_button"
+      ],
+      "layouts_6_footer_common_cta_main_title": "Currently Implementing an Automation Initiative?",
+      "layouts_6_footer_common_cta_description": "Seamless Automation Platform Migration? Trust qBotica to Streamline Your Existing Automation Program and Minimize Challenges. <strong>Let us Craft a Tailor-Made Plan to Suit Your Unique Requirements.</strong>",
+      "layouts_6_footer_common_cta": "",
+      "layouts_6_section_space_padding_padding_options": "0",
+      "layouts_6_section_space_padding": "",
+      "layouts_6_footer_common_cta_cta_button": {
+        "title": "Speak With An Expert",
+        "url": "/services/request-a-quote/",
+        "target": ""
+      },
+      "rank_math_title": "AI Automation Pricing | Affordable Plans &amp; Services | qBotica",
+      "rank_math_description": "qBotica's AI automation pricing &amp; affordable plans. Discover cost-effective robotic process automation (RPA) services tailored to your business needs and scale.",
+      "layouts_5_benefits_grid_layout_features_0_link": "",
+      "layouts_5_benefits_grid_layout_features_1_link": "",
+      "layouts_5_benefits_grid_layout_features_2_link": "",
+      "layouts_5_benefits_grid_layout_features_3_link": "",
+      "layouts_5_benefits_grid_layout_features_4_link": "",
+      "layouts_5_benefits_grid_layout_features_5_link": "",
+      "layouts_5_benefits_grid_layout_features_6_link": "",
+      "layouts_5_benefits_grid_layout_features_7_link": "",
+      "layouts_5_benefits_grid_layout_features_8_link": "",
+      "layouts_5_benefits_grid_layout_features_9_link": "",
+      "layouts_5_benefits_grid_layout_features_10_link": "",
+      "layouts_3_grid_layout_background_color": "",
+      "layouts_4_grid_layout_background_color": "",
+      "layouts_5_benefits_grid_layout_background_color": "",
+      "_migration": {
+        "wpId": 2935,
+        "postType": "page",
+        "postStatus": "publish",
+        "postDate": "2025-08-20T23:30:36.000Z",
+        "modifiedDate": "2025-10-08T04:47:47.000Z",
+        "guid": "https://dev.srv975395.hstgr.cloud/?page_id=2935",
+        "rawMetaCount": 460,
+        "kind": "page",
+        "content": "Unlock Seamless Automation with qBotica All-in-One Services, Licenses, and Hosting Packages Customized Pricing for Your Needs that is Simple and Reliable Speak With An Expert Automation as A Service Packages* Automation Starter 3 Bot Package $ 9,000 /mo starting at Bot Design, Development and Testing Required UiPath Licenses Automation Support &amp; Fixes Cloud Hosting and Management Un-Attended"
+      }
+    },
+    "pageBuilder": [
+      {
+        "__component": "sections.hero",
+        "title": "Unlock Seamless Automation with qBotica",
+        "subtitle": "All-in-One Services, Licenses, and Hosting Packages\nCustomized Pricing for Your Needs that is Simple and Reliable",
+        "image": null
+      },
+      {
+        "__component": "sections.features",
+        "title": "Automation as A Service Packages*",
+        "items": {
+          "layoutType": "package_card_section",
+          "repeaters": {
+            "package_card_section_package_cards": [
+              {
+                "column": "col-md-4",
+                "package_title": "Automation Starter",
+                "package_subtitle": "3 Bot Package",
+                "price": "$ 9,000",
+                "price_note": "starting at",
+                "features": "5",
+                "cta_button": {
+                  "title": "Request a Quote",
+                  "url": "/services/request-a-quote",
+                  "target": ""
+                },
+                "price_plan": "/ month"
+              },
+              {
+                "column": "col-md-4",
+                "package_title": "Automation Foundation",
+                "package_subtitle": "5 Bot Package",
+                "price": "$ 20,000",
+                "price_note": "starting at",
+                "features": "6",
+                "cta_button": {
+                  "title": "Request a Quote",
+                  "url": "/services/request-a-quote",
+                  "target": ""
+                },
+                "price_plan": "/ month"
+              },
+              {
+                "column": "col-md-4",
+                "package_title": "Automation Platinum - Enterprise",
+                "package_subtitle": "10+ Bot Package",
+                "price": "$ 47,000",
+                "price_note": "starting at",
+                "features": "10",
+                "cta_button": {
+                  "title": "Request a Quote",
+                  "url": "/services/request-a-quote",
+                  "target": ""
+                },
+                "price_plan": "/ month"
+              }
+            ],
+            "package_card_section_package_cards_0_features": [
+              {
+                "feature_item": "Bot Design, Development and Testing"
+              },
+              {
+                "feature_item": "Required UiPath Licenses"
+              },
+              {
+                "feature_item": "Automation Support & Fixes"
+              },
+              {
+                "feature_item": "Cloud Hosting and Management"
+              },
+              {
+                "feature_item": "Un-Attended Digital Worker"
+              }
+            ],
+            "package_card_section_package_cards_1_features": [
+              {
+                "feature_item": "Bot Design, Development and Testing"
+              },
+              {
+                "feature_item": "Required UiPath Licenses"
+              },
+              {
+                "feature_item": "Automation Support & Fixes"
+              },
+              {
+                "feature_item": "Cloud Hosting and Management"
+              },
+              {
+                "feature_item": "Un-Attended & Attended Digital Workers"
+              },
+              {
+                "feature_item": "Technical Health Assessment"
+              }
+            ],
+            "package_card_section_package_cards_2_features": [
+              {
+                "feature_item": "Bot Design, Development and Testing"
+              },
+              {
+                "feature_item": "Required UiPath Licenses"
+              },
+              {
+                "feature_item": "Automation Support & Fixes"
+              },
+              {
+                "feature_item": "Cloud Hosting and Management"
+              },
+              {
+                "feature_item": "Un-Attended & Attended"
+              },
+              {
+                "feature_item": "Technical Health Assessment"
+              },
+              {
+                "feature_item": "Automation Dashboard"
+              },
+              {
+                "feature_item": "Automation Pipeline Advisory"
+              },
+              {
+                "feature_item": "Root Cause Analysis for Urgent Incidents"
+              },
+              {
+                "feature_item": "Expanded Incident Support Window"
+              }
+            ]
+          },
+          "fields": {
+            "layout_type": "package_card_section",
+            "package_card_section_main_title": "Automation as A Service Packages*",
+            "package_card_section_package_cards_0_column": "col-md-4",
+            "package_card_section_package_cards_0_package_title": "Automation Starter",
+            "package_card_section_package_cards_0_package_subtitle": "3 Bot Package",
+            "package_card_section_package_cards_0_price": "$ 9,000",
+            "package_card_section_package_cards_0_price_note": "starting at",
+            "package_card_section_package_cards_0_features_0_feature_item": "Bot Design, Development and Testing",
+            "package_card_section_package_cards_0_features_1_feature_item": "Required UiPath Licenses",
+            "package_card_section_package_cards_0_features_2_feature_item": "Automation Support & Fixes",
+            "package_card_section_package_cards_0_features_3_feature_item": "Cloud Hosting and Management",
+            "package_card_section_package_cards_0_features_4_feature_item": "Un-Attended Digital Worker",
+            "package_card_section_package_cards_0_features": "5",
+            "package_card_section_package_cards_0_cta_button": {
+              "title": "Request a Quote",
+              "url": "/services/request-a-quote",
+              "target": ""
+            },
+            "package_card_section_package_cards": "3",
+            "package_card_section": "",
+            "section_space_padding_padding_options": "1",
+            "section_space_padding_padding_position": [
+              "top",
+              "bottom"
+            ],
+            "section_space_padding_desktop_padding_padding_top_desktop": "60",
+            "section_space_padding_desktop_padding_padding_bottom_desktop": "20",
+            "section_space_padding_desktop_padding": "",
+            "section_space_padding_mobile_padding_padding_top_mobile": "50",
+            "section_space_padding_mobile_padding_padding_bottom_mobile": "10",
+            "section_space_padding_mobile_padding": "",
+            "section_space_padding": "",
+            "package_card_section_package_cards_1_column": "col-md-4",
+            "package_card_section_package_cards_1_package_title": "Automation Foundation",
+            "package_card_section_package_cards_1_package_subtitle": "5 Bot Package",
+            "package_card_section_package_cards_1_price": "$ 20,000",
+            "package_card_section_package_cards_1_price_note": "starting at",
+            "package_card_section_package_cards_1_features_0_feature_item": "Bot Design, Development and Testing",
+            "package_card_section_package_cards_1_features_1_feature_item": "Required UiPath Licenses",
+            "package_card_section_package_cards_1_features_2_feature_item": "Automation Support & Fixes",
+            "package_card_section_package_cards_1_features_3_feature_item": "Cloud Hosting and Management",
+            "package_card_section_package_cards_1_features_4_feature_item": "Un-Attended & Attended Digital Workers",
+            "package_card_section_package_cards_1_features_5_feature_item": "Technical Health Assessment",
+            "package_card_section_package_cards_1_features": "6",
+            "package_card_section_package_cards_1_cta_button": {
+              "title": "Request a Quote",
+              "url": "/services/request-a-quote",
+              "target": ""
+            },
+            "package_card_section_package_cards_2_column": "col-md-4",
+            "package_card_section_package_cards_2_package_title": "Automation Platinum - Enterprise",
+            "package_card_section_package_cards_2_package_subtitle": "10+ Bot Package",
+            "package_card_section_package_cards_2_price": "$ 47,000",
+            "package_card_section_package_cards_2_price_note": "starting at",
+            "package_card_section_package_cards_2_features_0_feature_item": "Bot Design, Development and Testing",
+            "package_card_section_package_cards_2_features_1_feature_item": "Required UiPath Licenses",
+            "package_card_section_package_cards_2_features_2_feature_item": "Automation Support & Fixes",
+            "package_card_section_package_cards_2_features_3_feature_item": "Cloud Hosting and Management",
+            "package_card_section_package_cards_2_features_4_feature_item": "Un-Attended & Attended",
+            "package_card_section_package_cards_2_features_5_feature_item": "Technical Health Assessment",
+            "package_card_section_package_cards_2_features_6_feature_item": "Automation Dashboard",
+            "package_card_section_package_cards_2_features_7_feature_item": "Automation Pipeline Advisory",
+            "package_card_section_package_cards_2_features_8_feature_item": "Root Cause Analysis for Urgent Incidents",
+            "package_card_section_package_cards_2_features_9_feature_item": "Expanded Incident Support Window",
+            "package_card_section_package_cards_2_features": "10",
+            "package_card_section_package_cards_2_cta_button": {
+              "title": "Request a Quote",
+              "url": "/services/request-a-quote",
+              "target": ""
+            },
+            "package_card_section_package_cards_0_price_plan": "/ month",
+            "package_card_section_package_cards_1_price_plan": "/ month",
+            "package_card_section_package_cards_2_price_plan": "/ month",
+            "package_card_section_class_name": "service-package-sec",
+            "package_card_section_id": ""
+          }
+        }
+      },
+      {
+        "__component": "sections.cta",
+        "title": "“The qBotica team has always displayed a high level of professionalism and the competency to bring real life and practical suggestions. These solutions have significantly transformed how we do business both from externally facing processes to back-office operations. ”",
+        "description": "“The qBotica team has always displayed a high level of professionalism and the competency to bring real life and practical suggestions. These solutions have significantly transformed how we do business both from externally facing processes to back-office operations. ”"
+      },
+      {
+        "__component": "sections.features",
+        "title": "Intelligent Document Processing Packages",
+        "description": "Our Intelligent Document Processing (IDP) Packages offer an array of features that cater to your automation needs, enabling your company to achieve new levels of efficiency and productivity. Let’s delve into how these features can significantly benefit various industries.",
+        "items": {
+          "layoutType": "grid_layout",
+          "repeaters": {},
+          "fields": {
+            "layout_type": "grid_layout",
+            "grid_layout_display_options": [
+              "main_title",
+              "description",
+              "cta_button"
+            ],
+            "grid_layout_main_title": "Intelligent Document Processing Packages",
+            "grid_layout_description": "Our Intelligent Document Processing (IDP) Packages offer an array of features that cater to your automation needs, enabling your company to achieve new levels of efficiency and productivity. Let’s delve into how these features can significantly benefit various industries.",
+            "grid_layout_cta_button": {
+              "title": "View IDP Packages",
+              "url": "/services/intelligent-document-processing-idp-pricing",
+              "target": ""
+            },
+            "grid_layout_class_name": "grid-service-layout-1",
+            "grid_layout_id": "grid-service-layout-1",
+            "grid_layout": "",
+            "section_space_padding_padding_options": "1",
+            "section_space_padding": "",
+            "section_space_padding_padding_position": [
+              "bottom"
+            ],
+            "section_space_padding_desktop_padding_padding_bottom_desktop": "60",
+            "section_space_padding_desktop_padding": "",
+            "section_space_padding_mobile_padding_padding_bottom_mobile": "50",
+            "section_space_padding_mobile_padding": "",
+            "grid_layout_background_color": ""
+          }
+        }
+      },
+      {
+        "__component": "sections.features",
+        "title": "Why Automation as a Service?",
+        "description": "As CIOs and Technology Leaders, we understand the challenges you face in implementing and scaling automation programs within your organizations. That’s why Automation Cube, our dedicated Managed Service Provider (MSP) program, brings together the right technology, infrastructure, and expertise to empower your Automation Program’s success.\n\nUnlike traditional automation providers with complex licensing structures, qBotica simplifies the process. Our Automation as a Service model eliminates the need for annual licensing purchases based on run-times, ensuring you only pay for what you truly need. Say goodbye to inflated costs and unnecessary investments.\n\nWe also recognize the complexities of setting up automation IT and infrastructure, which can be a significant burden. With Automation Cube, our experienced team will manage your best-of-breed technology stack and automation infrastructure, allowing you to focus on strategic initiatives while we handle the technical intricacies.",
+        "items": {
+          "layoutType": "grid_layout",
+          "repeaters": {},
+          "fields": {
+            "layout_type": "grid_layout",
+            "grid_layout_display_options": [
+              "main_title",
+              "description",
+              "cta_button"
+            ],
+            "grid_layout_main_title": "Why Automation as a Service?",
+            "grid_layout_description": "As CIOs and Technology Leaders, we understand the challenges you face in implementing and scaling automation programs within your organizations. That’s why Automation Cube, our dedicated Managed Service Provider (MSP) program, brings together the right technology, infrastructure, and expertise to empower your Automation Program’s success.\r\n\r\nUnlike traditional automation providers with complex licensing structures, qBotica simplifies the process. Our Automation as a Service model eliminates the need for annual licensing purchases based on run-times, ensuring you only pay for what you truly need. Say goodbye to inflated costs and unnecessary investments.\r\n\r\nWe also recognize the complexities of setting up automation IT and infrastructure, which can be a significant burden. With Automation Cube, our experienced team will manage your best-of-breed technology stack and automation infrastructure, allowing you to focus on strategic initiatives while we handle the technical intricacies.",
+            "grid_layout_cta_button": {
+              "title": "Speak With An Expert",
+              "url": "/services/request-a-quote/",
+              "target": ""
+            },
+            "grid_layout_class_name": "",
+            "grid_layout_id": "",
+            "grid_layout": "",
+            "section_space_padding_padding_options": "0",
+            "section_space_padding": "",
+            "grid_layout_background_color": ""
+          }
+        }
+      },
+      {
+        "__component": "sections.features",
+        "title": "MSP Packages Features and Options",
+        "description": "Our experts will work closely with your team to design, develop, and thoroughly test automation bots. These bots are tailored to suit your unique requirements, ensuring that your processes are streamlined and optimized.",
+        "items": {
+          "layoutType": "benefits_grid_layout",
+          "repeaters": {
+            "benefits_grid_layout_features": [
+              {
+                "column": "col-md-4",
+                "image_type": "icon",
+                "icon": "2770",
+                "title": "Bot Design, Development, and Testing",
+                "type": "description",
+                "text_align": "left",
+                "description": "Our experts will work closely with your team to design, develop, and thoroughly test automation bots. These bots are tailored to suit your unique requirements, ensuring that your processes are streamlined and optimized.",
+                "link": ""
+              },
+              {
+                "column": "col-md-4",
+                "image_type": "icon",
+                "icon": "2794",
+                "title": "Process Complexity Flexibility",
+                "type": "description",
+                "text_align": "left",
+                "description": "Our experts will work closely with your team to design, develop, and thoroughly test automation bots. These bots are tailored to suit your unique requirements, ensuring that your processes are streamlined and optimized.",
+                "link": ""
+              },
+              {
+                "column": "col-md-4",
+                "image_type": "icon",
+                "icon": "2795",
+                "title": "UiPathLicenses",
+                "type": "description",
+                "text_align": "left",
+                "description": "Access to the required UiPath licenses is seamlessly integrated into the package. This means you can harness the power of UiPath's cutting-edge automation platform without any hassle.",
+                "link": ""
+              },
+              {
+                "column": "col-md-4",
+                "image_type": "icon",
+                "icon": "2786",
+                "title": "Automation Support & Fixes*",
+                "type": "description",
+                "text_align": "left",
+                "description": "With our package, you'll receive dedicated automation support and prompt fixes whenever needed. Our team is committed to ensuring that your automation ecosystem functions flawlessly.",
+                "link": ""
+              },
+              {
+                "column": "col-md-4",
+                "image_type": "icon",
+                "icon": "2787",
+                "title": "Cloud Hosting and Management",
+                "type": "description",
+                "text_align": "left",
+                "description": "Effortlessly manage your automation infrastructure with our cloud hosting services. From unattended to attended automation, our experts ensure that your bots run efficiently and smoothly.",
+                "link": ""
+              },
+              {
+                "column": "col-md-4",
+                "image_type": "icon",
+                "icon": "2788",
+                "title": "Technical Health Assessment",
+                "type": "description",
+                "text_align": "left",
+                "description": "Regular check-ups are crucial for maintaining a healthy automation environment. Our technical health assessment helps identify any potential issues and ensures your automation processes are optimized for peak performance.",
+                "link": ""
+              },
+              {
+                "column": "col-md-4",
+                "image_type": "icon",
+                "icon": "2789",
+                "title": "Automation Dashboard",
+                "type": "description",
+                "text_align": "left",
+                "description": "Stay in control with our automation dashboard that provides real-time insights into the performance of your bots. Monitor progress, track achievements, and make informed decisions based on comprehensive data.",
+                "link": ""
+              },
+              {
+                "column": "col-md-4",
+                "image_type": "icon",
+                "icon": "2790",
+                "title": "Automation Pipeline Advisory",
+                "type": "description",
+                "text_align": "left",
+                "description": "Plan ahead with our automation pipeline advisory service. We help you strategize the deployment of future automation projects, ensuring a continuous improvement cycle.",
+                "link": ""
+              },
+              {
+                "column": "col-md-4",
+                "image_type": "icon",
+                "icon": "2791",
+                "title": "Root Cause Analysis for Urgent Incidents",
+                "type": "description",
+                "text_align": "left",
+                "description": "In the event of urgent incidents, our package offers root cause analysis to swiftly identify and address issues. This minimizes downtime and keeps your automation operations running smoothly.",
+                "link": ""
+              },
+              {
+                "column": "col-md-4",
+                "image_type": "icon",
+                "icon": "2792",
+                "title": "Expanded Incident Support Window",
+                "type": "description",
+                "text_align": "left",
+                "description": "We understand the importance of uninterrupted operations. Our expanded incident support window ensures that you have assistance whenever you need it, around the clock.",
+                "link": ""
+              },
+              {
+                "column": "col-md-4",
+                "image_type": "icon",
+                "icon": "2793",
+                "title": "Product RoadMap and Capability Advisory",
+                "type": "description",
+                "text_align": "left",
+                "description": "Stay ahead of the curve with insights into the product roadmap and capability advisory. Our experts guide you on harnessing the latest automation advancements for your business.",
+                "link": ""
+              }
+            ]
+          },
+          "fields": {
+            "layout_type": "benefits_grid_layout",
+            "benefits_grid_layout_main_title": "MSP Packages Features and Options",
+            "benefits_grid_layout_description": "",
+            "benefits_grid_layout_button": "",
+            "benefits_grid_layout_features_0_column": "col-md-4",
+            "benefits_grid_layout_features_0_image_type": "icon",
+            "benefits_grid_layout_features_0_icon": "2770",
+            "benefits_grid_layout_features_0_title": "Bot Design, Development, and Testing",
+            "benefits_grid_layout_features_0_type": "description",
+            "benefits_grid_layout_features_0_text_align": "left",
+            "benefits_grid_layout_features_0_description": "Our experts will work closely with your team to design, develop, and thoroughly test automation bots. These bots are tailored to suit your unique requirements, ensuring that your processes are streamlined and optimized.",
+            "benefits_grid_layout_features_1_column": "col-md-4",
+            "benefits_grid_layout_features_1_image_type": "icon",
+            "benefits_grid_layout_features_1_icon": "2794",
+            "benefits_grid_layout_features_1_title": "Process Complexity Flexibility",
+            "benefits_grid_layout_features_1_type": "description",
+            "benefits_grid_layout_features_1_text_align": "left",
+            "benefits_grid_layout_features_1_description": "Our experts will work closely with your team to design, develop, and thoroughly test automation bots. These bots are tailored to suit your unique requirements, ensuring that your processes are streamlined and optimized.",
+            "benefits_grid_layout_features_2_column": "col-md-4",
+            "benefits_grid_layout_features_2_image_type": "icon",
+            "benefits_grid_layout_features_2_icon": "2795",
+            "benefits_grid_layout_features_2_title": "UiPathLicenses",
+            "benefits_grid_layout_features_2_type": "description",
+            "benefits_grid_layout_features_2_text_align": "left",
+            "benefits_grid_layout_features_2_description": "Access to the required UiPath licenses is seamlessly integrated into the package. This means you can harness the power of UiPath's cutting-edge automation platform without any hassle.",
+            "benefits_grid_layout_features_3_column": "col-md-4",
+            "benefits_grid_layout_features_3_image_type": "icon",
+            "benefits_grid_layout_features_3_icon": "2786",
+            "benefits_grid_layout_features_3_title": "Automation Support & Fixes*",
+            "benefits_grid_layout_features_3_type": "description",
+            "benefits_grid_layout_features_3_text_align": "left",
+            "benefits_grid_layout_features_3_description": "With our package, you'll receive dedicated automation support and prompt fixes whenever needed. Our team is committed to ensuring that your automation ecosystem functions flawlessly.",
+            "benefits_grid_layout_features_4_column": "col-md-4",
+            "benefits_grid_layout_features_4_image_type": "icon",
+            "benefits_grid_layout_features_4_icon": "2787",
+            "benefits_grid_layout_features_4_title": "Cloud Hosting and Management",
+            "benefits_grid_layout_features_4_type": "description",
+            "benefits_grid_layout_features_4_text_align": "left",
+            "benefits_grid_layout_features_4_description": "Effortlessly manage your automation infrastructure with our cloud hosting services. From unattended to attended automation, our experts ensure that your bots run efficiently and smoothly.",
+            "benefits_grid_layout_features_5_column": "col-md-4",
+            "benefits_grid_layout_features_5_image_type": "icon",
+            "benefits_grid_layout_features_5_icon": "2788",
+            "benefits_grid_layout_features_5_title": "Technical Health Assessment",
+            "benefits_grid_layout_features_5_type": "description",
+            "benefits_grid_layout_features_5_text_align": "left",
+            "benefits_grid_layout_features_5_description": "Regular check-ups are crucial for maintaining a healthy automation environment. Our technical health assessment helps identify any potential issues and ensures your automation processes are optimized for peak performance.",
+            "benefits_grid_layout_features_6_column": "col-md-4",
+            "benefits_grid_layout_features_6_image_type": "icon",
+            "benefits_grid_layout_features_6_icon": "2789",
+            "benefits_grid_layout_features_6_title": "Automation Dashboard",
+            "benefits_grid_layout_features_6_type": "description",
+            "benefits_grid_layout_features_6_text_align": "left",
+            "benefits_grid_layout_features_6_description": "Stay in control with our automation dashboard that provides real-time insights into the performance of your bots. Monitor progress, track achievements, and make informed decisions based on comprehensive data.",
+            "benefits_grid_layout_features_7_column": "col-md-4",
+            "benefits_grid_layout_features_7_image_type": "icon",
+            "benefits_grid_layout_features_7_icon": "2790",
+            "benefits_grid_layout_features_7_title": "Automation Pipeline Advisory",
+            "benefits_grid_layout_features_7_type": "description",
+            "benefits_grid_layout_features_7_text_align": "left",
+            "benefits_grid_layout_features_7_description": "Plan ahead with our automation pipeline advisory service. We help you strategize the deployment of future automation projects, ensuring a continuous improvement cycle.",
+            "benefits_grid_layout_features_8_column": "col-md-4",
+            "benefits_grid_layout_features_8_image_type": "icon",
+            "benefits_grid_layout_features_8_icon": "2791",
+            "benefits_grid_layout_features_8_title": "Root Cause Analysis for Urgent Incidents",
+            "benefits_grid_layout_features_8_type": "description",
+            "benefits_grid_layout_features_8_text_align": "left",
+            "benefits_grid_layout_features_8_description": "In the event of urgent incidents, our package offers root cause analysis to swiftly identify and address issues. This minimizes downtime and keeps your automation operations running smoothly.",
+            "benefits_grid_layout_features_9_column": "col-md-4",
+            "benefits_grid_layout_features_9_image_type": "icon",
+            "benefits_grid_layout_features_9_icon": "2792",
+            "benefits_grid_layout_features_9_title": "Expanded Incident Support Window",
+            "benefits_grid_layout_features_9_type": "description",
+            "benefits_grid_layout_features_9_text_align": "left",
+            "benefits_grid_layout_features_9_description": "We understand the importance of uninterrupted operations. Our expanded incident support window ensures that you have assistance whenever you need it, around the clock.",
+            "benefits_grid_layout_features_10_column": "col-md-4",
+            "benefits_grid_layout_features_10_image_type": "icon",
+            "benefits_grid_layout_features_10_icon": "2793",
+            "benefits_grid_layout_features_10_title": "Product RoadMap and Capability Advisory",
+            "benefits_grid_layout_features_10_type": "description",
+            "benefits_grid_layout_features_10_text_align": "left",
+            "benefits_grid_layout_features_10_description": "Stay ahead of the curve with insights into the product roadmap and capability advisory. Our experts guide you on harnessing the latest automation advancements for your business.",
+            "benefits_grid_layout_features": "11",
+            "benefits_grid_layout_class_name": "msp-features",
+            "benefits_grid_layout_id": "",
+            "benefits_grid_layout": "",
+            "section_space_padding_padding_options": "1",
+            "section_space_padding": "",
+            "section_space_padding_padding_position": [
+              "top",
+              "bottom"
+            ],
+            "section_space_padding_desktop_padding_padding_top_desktop": "60",
+            "section_space_padding_desktop_padding_padding_bottom_desktop": "35",
+            "section_space_padding_desktop_padding": "",
+            "section_space_padding_mobile_padding_padding_top_mobile": "50",
+            "section_space_padding_mobile_padding_padding_bottom_mobile": "25",
+            "section_space_padding_mobile_padding": "",
+            "benefits_grid_layout_features_0_link": "",
+            "benefits_grid_layout_features_1_link": "",
+            "benefits_grid_layout_features_2_link": "",
+            "benefits_grid_layout_features_3_link": "",
+            "benefits_grid_layout_features_4_link": "",
+            "benefits_grid_layout_features_5_link": "",
+            "benefits_grid_layout_features_6_link": "",
+            "benefits_grid_layout_features_7_link": "",
+            "benefits_grid_layout_features_8_link": "",
+            "benefits_grid_layout_features_9_link": "",
+            "benefits_grid_layout_features_10_link": "",
+            "benefits_grid_layout_background_color": ""
+          }
+        }
+      },
+      {
+        "__component": "sections.cta",
+        "title": "Currently Implementing an Automation Initiative?",
+        "description": "Seamless Automation Platform Migration? Trust qBotica to Streamline Your Existing Automation Program and Minimize Challenges. <strong>Let us Craft a Tailor-Made Plan to Suit Your Unique Requirements.</strong>",
+        "button": {
+          "label": "Speak With An Expert",
+          "url": "/services/request-a-quote/",
+          "targetBlank": false
+        }
+      }
+    ]
+  }
+}

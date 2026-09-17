@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_acf_shared_package_card_section_pac_0fab3f1c",
+  "info": {
+    "displayName": "Package Card Section Package Cards Features"
+  },
+  "attributes": {
+    "feature_item": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_acf_shared_home_awards_and_certific_bab0c15d",
+  "info": {
+    "displayName": "Home Awards and Certificates Award and Certificate List"
+  },
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_acf_shared_home_partner_workflow_list",
+  "info": {
+    "displayName": "Home  Partner Workflow List"
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

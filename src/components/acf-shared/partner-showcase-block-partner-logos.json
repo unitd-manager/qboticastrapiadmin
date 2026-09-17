@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_acf_shared_partner_showcase_block_p_73801008",
+  "info": {
+    "displayName": "Partner Showcase Block Partner Logos"
+  },
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

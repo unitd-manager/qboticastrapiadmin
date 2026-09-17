@@ -1,0 +1,17 @@
+﻿{
+  "collectionName": "components_sections_features",
+  "info": {
+    "displayName": "Features"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "items": {
+      "type": "json"
+    }
+  }
+}

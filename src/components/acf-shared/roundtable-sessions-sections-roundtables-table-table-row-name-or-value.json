@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_acf_shared_roundtable_sessions_sect_964807c2",
+  "info": {
+    "displayName": "Roundtable Sessions Sections Roundtables Table Table Row Name Or Value"
+  },
+  "attributes": {
+    "name": {
+      "type": "richtext"
+    }
+  }
+}

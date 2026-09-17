@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_acf_shared_use_case_single_sidebar_items",
+  "info": {
+    "displayName": "Use Case Single Sidebar Items"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "acf-shared.use-case-single-sidebar-items-items"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_acf_shared_hiring_process_steps_layout_steps",
+  "info": {
+    "displayName": "Hiring Process Steps Layout Steps"
+  },
+  "attributes": {
+    "step_title": {
+      "type": "string"
+    },
+    "step_description": {
+      "type": "richtext"
+    },
+    "step_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

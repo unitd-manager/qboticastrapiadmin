@@ -1,0 +1,64 @@
+{
+  "name": "qbstrapi",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "audit:components": "node scripts/audit-strapi-components.js",
+    "backfill:post-category-layout": "node scripts/backfill-post-category-layout.js",
+    "build:page-schema": "node scripts/generate-page-schema.js",
+    "build:types": "node scripts/run-strapi.js ts:generate-types",
+    "build": "node scripts/run-strapi.js build",
+    "backfill:pages": "node scripts/backfill-page-builder-from-acf.js",
+    "console": "node scripts/run-strapi.js console",
+    "deploy": "node scripts/run-strapi.js deploy",
+    "dev": "node scripts/run-strapi.js develop",
+    "develop": "node scripts/run-strapi.js develop",
+    "migrate:list": "node scripts/migrate-home-automation-edge-list.js",
+    "migrate:page-builder-groups": "node scripts/migrate-page-builder-groups.js",
+    "migrate:home-page": "node scripts/migrate-home-page-only.js",
+    "migrate:home-page-seo": "node scripts/migrate-home-page-seo-only.js",
+    "migrate:images": "node scripts/migrate-images.js",
+    "migrate:pages-seo-all": "node scripts/migrate-pages-seo-all.js",
+    "migrate:wordpress": "node scripts/migrate-wordpress-to-strapi.js",
+    "prebuild": "npm run build:page-schema && npm run build:types",
+    "predev": "npm run build:page-schema && npm run build:types",
+    "predevelop": "npm run build:page-schema && npm run build:types",
+    "start": "node scripts/run-strapi.js start",
+    "strapi": "node scripts/run-strapi.js",
+    "validate:strapi-token": "node scripts/validate-strapi-token.js",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@koa/router": "^15.6.0",
+    "@strapi/plugin-cloud": "5.46.0",
+    "@strapi/plugin-users-permissions": "5.46.0",
+    "@strapi/strapi": "5.46.0",
+    "axios": "^1.18.0",
+    "form-data": "^4.0.6",
+    "mysql2": "3.20.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "slugify": "^1.6.9",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=20.0.0 <=24.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "31bebc40-4b9c-486e-baca-376fdbdaad1a",
+    "installId": "390921921ec84d8a3cd035c9e66f55273f6a62faf9c1ac77e49c2231aebf21f7"
+  },
+  "overrides": {
+    "crc": "3.5.0"
+  }
+}

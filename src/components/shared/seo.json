@@ -1,0 +1,32 @@
+﻿{
+  "collectionName": "components_shared_seos",
+  "info": {
+    "displayName": "SEO"
+  },
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "text"
+    },
+    "canonicalUrl": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "string"
+    },
+    "seoScore": {
+      "type": "string"
+    },
+    "contentAiScore": {
+      "type": "string"
+    },
+    "ogImage": {
+      "type": "media"
+    },
+    "noIndex": {
+      "type": "boolean"
+    }
+  }
+}

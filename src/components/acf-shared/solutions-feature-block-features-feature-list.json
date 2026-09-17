@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_acf_shared_solutions_feature_block__17073bd0",
+  "info": {
+    "displayName": "Solutions Feature Block Features Feature List"
+  },
+  "attributes": {
+    "name": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_acf_shared_timeline_sections_timelines",
+  "info": {
+    "displayName": "Timeline Sections Timelines"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "chart": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+﻿{
+  "collectionName": "components_sections_testimonials",
+  "info": {
+    "displayName": "Testimonial Section"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "testimonials": {
+      "type": "json"
+    }
+  }
+}

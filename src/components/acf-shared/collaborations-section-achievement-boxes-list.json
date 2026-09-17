@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_acf_shared_collaborations_section_a_dd36aec6",
+  "info": {
+    "displayName": "Collaborations Section Achievement Boxes List"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

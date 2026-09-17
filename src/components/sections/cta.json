@@ -1,0 +1,18 @@
+﻿{
+  "collectionName": "components_sections_ctas",
+  "info": {
+    "displayName": "CTA"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "button": {
+      "type": "component",
+      "component": "shared.menu-item"
+    }
+  }
+}

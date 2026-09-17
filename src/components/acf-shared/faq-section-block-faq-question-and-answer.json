@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_acf_shared_faq_section_block_faq_qu_1b8e4db1",
+  "info": {
+    "displayName": "FAQ Section Block FAQ Question & Answer"
+  },
+  "attributes": {
+    "question": {
+      "type": "text"
+    },
+    "answer": {
+      "type": "richtext"
+    }
+  }
+}

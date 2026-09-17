@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_acf_shared_step_cards_section_steps_list",
+  "info": {
+    "displayName": "Step Cards Section Steps List"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

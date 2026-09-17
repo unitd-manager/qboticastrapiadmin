@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_heroes",
+  "info": {
+    "displayName": "Hero Section"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media"
+    }
+  }
+}

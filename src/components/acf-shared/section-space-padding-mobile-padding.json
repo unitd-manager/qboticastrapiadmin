@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_acf_shared_section_space_padding_mo_5e2fa5e7",
+  "info": {
+    "displayName": "Section Space (Padding) Mobile Padding"
+  },
+  "attributes": {
+    "padding_top_mobile": {
+      "type": "integer"
+    },
+    "padding_bottom_mobile": {
+      "type": "integer"
+    }
+  }
+}

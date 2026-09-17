@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_acf_shared_package_card_section_pac_741c0ec8",
+  "info": {
+    "displayName": "Package Card Section Package Cards"
+  },
+  "attributes": {
+    "column": {
+      "type": "enumeration",
+      "enum": [
+        "col-md-1",
+        "col-md-2",
+        "col-md-3",
+        "col-md-4",
+        "col-md-5",
+        "col-md-6",
+        "col-md-7",
+        "col-md-8",
+        "col-md-9",
+        "col-md-10",
+        "col-md-11",
+        "col-md-12"
+      ]
+    },
+    "package_title": {
+      "type": "string"
+    },
+    "package_subtitle": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "price_note": {
+      "type": "string"
+    },
+    "price_plan": {
+      "type": "string"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "acf-shared.package-card-section-package-cards-features"
+    },
+    "cta_button": {
+      "type": "component",
+      "component": "shared.menu-item",
+      "repeatable": false
+    }
+  }
+}

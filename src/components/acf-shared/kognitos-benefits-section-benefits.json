@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_acf_shared_kognitos_benefits_sectio_57a2168c",
+  "info": {
+    "displayName": "Kognitos Benefits Section Benefits"
+  },
+  "attributes": {
+    "icon": {
+      "type": "json"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

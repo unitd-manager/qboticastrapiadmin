@@ -1,0 +1,22 @@
+{
+  "name": "strapi-plugin-custom",
+  "version": "1.0.0",
+  "exports": {
+    "./strapi-admin": {
+      "source": "./admin/src/index.tsx",
+      "import": "./admin/src/index.tsx",
+      "default": "./admin/src/index.tsx"
+    },
+    "./strapi-server": {
+      "source": "./strapi-server.ts",
+      "default": "./strapi-server.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "strapi": {
+    "kind": "plugin",
+    "name": "custom",
+    "displayName": "Custom Fields",
+    "description": "Custom field types for the admin panel"
+  }
+}

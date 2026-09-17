@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_acf_shared_home_key_highlights_high_9b953847",
+  "info": {
+    "displayName": "Home Key Highlights Highlights List"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "highlights_icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

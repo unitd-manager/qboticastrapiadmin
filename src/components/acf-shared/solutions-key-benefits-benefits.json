@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_acf_shared_solutions_key_benefits_benefits",
+  "info": {
+    "displayName": "Solutions Key Benefits Benefits"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

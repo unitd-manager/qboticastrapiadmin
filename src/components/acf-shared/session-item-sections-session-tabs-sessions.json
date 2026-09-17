@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_acf_shared_session_item_sections_se_9500f9e1",
+  "info": {
+    "displayName": "Session Item Sections Session Tabs Sessions"
+  },
+  "attributes": {
+    "session_date_day_label": {
+      "type": "string"
+    },
+    "session_time": {
+      "type": "string"
+    },
+    "session_title": {
+      "type": "string"
+    },
+    "session_description": {
+      "type": "richtext"
+    },
+    "speaker_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "speaker_name": {
+      "type": "string"
+    },
+    "speaker_title": {
+      "type": "string"
+    },
+    "speaker_company": {
+      "type": "string"
+    },
+    "speaker_role_label": {
+      "type": "string"
+    }
+  }
+}

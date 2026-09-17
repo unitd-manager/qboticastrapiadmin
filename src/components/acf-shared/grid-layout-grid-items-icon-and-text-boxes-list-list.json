@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_acf_shared_grid_layout_grid_items_i_fe535bc5",
+  "info": {
+    "displayName": "Grid Layout Grid Items Icon and Text Boxes List List"
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

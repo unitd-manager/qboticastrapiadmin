@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_acf_shared_image_with_keypoints_key_points",
+  "info": {
+    "displayName": "Image With Keypoints Key Points"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

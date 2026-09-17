@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_acf_shared_usecase_industry_filter__0d5b2e0b",
+  "info": {
+    "displayName": "Usecase Industry Filter Categories"
+  },
+  "attributes": {
+    "category_label_and_link": {
+      "type": "component",
+      "component": "shared.menu-item",
+      "repeatable": false
+    },
+    "is_active": {
+      "type": "boolean"
+    }
+  }
+}

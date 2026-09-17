@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_acf_shared_section_space_padding_de_e065a466",
+  "info": {
+    "displayName": "Section Space (Padding) Desktop Padding"
+  },
+  "attributes": {
+    "padding_top_desktop": {
+      "type": "integer"
+    },
+    "padding_bottom_desktop": {
+      "type": "integer"
+    }
+  }
+}

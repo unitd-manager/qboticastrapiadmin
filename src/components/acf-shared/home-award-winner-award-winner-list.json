@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_acf_shared_home_award_winner_award__6d9f7375",
+  "info": {
+    "displayName": "Home Award Winner Award Winner List"
+  },
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "link": {
+      "type": "component",
+      "component": "shared.menu-item",
+      "repeatable": false
+    }
+  }
+}

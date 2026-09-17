@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_acf_shared_text_table_block_table",
+  "info": {
+    "displayName": "Text Table Block Table"
+  },
+  "attributes": {
+    "table_row": {
+      "type": "component",
+      "repeatable": true,
+      "component": "acf-shared.text-table-block-table-table-row"
+    }
+  }
+}
