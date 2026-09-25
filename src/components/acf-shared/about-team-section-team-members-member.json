@@ -5,22 +5,34 @@
   },
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Name"
+      }
     },
     "designation": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Designation"
+      }
     },
     "profile_picture": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Profile Picture"
+      }
     },
     "bio_url": {
       "type": "component",
       "component": "shared.menu-item",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Bio Url"
+      }
     }
   }
 }

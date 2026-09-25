@@ -7,15 +7,24 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "main_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Main Title"
+      }
     },
     "logo_list": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.home-client-logo-logo-list"
+      "component": "acf-shared.home-client-logo-logo-list",
+      "metadatas": {
+        "label": "Logo List"
+      }
     }
   }
 }

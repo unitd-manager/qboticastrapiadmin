@@ -7,15 +7,24 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "main_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Main Title"
+      }
     },
     "image_list": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.common-slider-image-list"
+      "component": "acf-shared.common-slider-image-list",
+      "metadatas": {
+        "label": "Image List"
+      }
     }
   }
 }

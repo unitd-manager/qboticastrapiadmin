@@ -7,36 +7,60 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "main_title": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Main Title"
+      }
     },
     "category_name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Category Name"
+      }
     },
     "image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Image"
+      }
     },
     "use_case_items": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.use-case-single-use-case-items"
+      "component": "acf-shared.use-case-single-use-case-items",
+      "metadatas": {
+        "label": "Use Case Items"
+      }
     },
     "sidebar_items": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.use-case-single-sidebar-items"
+      "component": "acf-shared.use-case-single-sidebar-items",
+      "metadatas": {
+        "label": "Sidebar Items"
+      }
     },
     "class_name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Class Name"
+      }
     },
     "acf_id": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Acf Id"
+      }
     }
   }
 }

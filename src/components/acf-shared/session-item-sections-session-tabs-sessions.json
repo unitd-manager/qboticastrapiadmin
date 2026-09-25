@@ -5,35 +5,62 @@
   },
   "attributes": {
     "session_date_day_label": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Session Date Day Label"
+      }
     },
     "session_time": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Session Time"
+      }
     },
     "session_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Session Title"
+      }
     },
     "session_description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Session Description"
+      }
     },
     "speaker_image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Speaker Image"
+      }
     },
     "speaker_name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Speaker Name"
+      }
     },
     "speaker_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Speaker Title"
+      }
     },
     "speaker_company": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Speaker Company"
+      }
     },
     "speaker_role_label": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Speaker Role Label"
+      }
     }
   }
 }

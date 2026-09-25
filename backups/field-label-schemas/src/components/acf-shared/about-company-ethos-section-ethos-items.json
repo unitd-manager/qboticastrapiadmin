@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_acf_shared_about_company_ethos_sect_084e862d",
+  "info": {
+    "displayName": "Company Ethos Section Ethos Items"
+  },
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

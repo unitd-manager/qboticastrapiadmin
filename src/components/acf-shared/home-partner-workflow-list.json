@@ -5,7 +5,10 @@
   },
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Name"
+      }
     }
   }
 }

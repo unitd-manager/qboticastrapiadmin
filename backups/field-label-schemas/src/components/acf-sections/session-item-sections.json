@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_acf_sections_session_item_sections",
+  "info": {
+    "displayName": "Session Item Sections"
+  },
+  "attributes": {
+    "section_space_padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "acf-sections.section-space-padding"
+    },
+    "main_title": {
+      "type": "string"
+    },
+    "session_tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "acf-shared.session-item-sections-session-tabs"
+    },
+    "class_name": {
+      "type": "string"
+    },
+    "acf_id": {
+      "type": "string"
+    }
+  }
+}

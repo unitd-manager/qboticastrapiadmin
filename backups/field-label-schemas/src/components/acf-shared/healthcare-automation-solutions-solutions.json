@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_acf_shared_healthcare_automation_so_675f6dff",
+  "info": {
+    "displayName": "Healthcare Automation Solutions Solutions"
+  },
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

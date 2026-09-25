@@ -7,32 +7,56 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "main_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Main Title"
+      }
     },
     "sub_title": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Sub Title"
+      }
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "timelines": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.timeline-sections-timelines"
+      "component": "acf-shared.timeline-sections-timelines",
+      "metadatas": {
+        "label": "Timelines"
+      }
     },
     "cta_button": {
       "type": "component",
       "component": "shared.menu-item",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Cta Button"
+      }
     },
     "class_name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Class Name"
+      }
     },
     "acf_id": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Acf Id"
+      }
     }
   }
 }

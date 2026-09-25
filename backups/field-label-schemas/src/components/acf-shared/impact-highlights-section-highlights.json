@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_acf_shared_impact_highlights_sectio_21992abe",
+  "info": {
+    "displayName": "Impact Highlights Section Highlights"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

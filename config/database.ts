@@ -14,10 +14,10 @@ const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Database 
   const databaseUrl = env('DATABASE_URL');
   const databaseSsl = env.bool('DATABASE_SSL', false);
   const driverConnectTimeout = env.int('DATABASE_CONNECT_TIMEOUT', connectionTimeout);
-  // Keep warm connections in the pool so admin requests never wait for a cold TCP handshake
-  // to the remote DB. Use a small warm pool in development as well to avoid 10s+ first-query delays.
-  const poolMin = env.int('DATABASE_POOL_MIN', 2);
-  const poolMax = env.int('DATABASE_POOL_MAX', 10);
+  // Keep the pool deliberately small for a remote MySQL instance that drops idle sockets.
+  // This reduces the chance of multiple stale connections being re-used during startup.
+  const poolMin = env.int('DATABASE_POOL_MIN', 1);
+  const poolMax = env.int('DATABASE_POOL_MAX', 4);
 
   const connections = {
     mysql: {
@@ -28,10 +28,9 @@ const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Database 
         user: databaseUser,
         password: env('DATABASE_PASSWORD', ''),
         connectTimeout: driverConnectTimeout,
-        // TCP keepalive prevents OS/NAT/firewall from silently dropping idle connections
-        // to the remote DB server — eliminates "Connection lost" errors on long queries.
-        enableKeepAlive: true,
-        keepAliveInitialDelay: 10000,
+        // Some remote MySQL servers reset idle sockets unexpectedly when keepalive is enabled.
+        // Disable it for stability during Strapi startup and normal admin workloads.
+        enableKeepAlive: false,
         ssl: databaseSsl && {
           key: env('DATABASE_SSL_KEY', undefined),
           cert: env('DATABASE_SSL_CERT', undefined),
@@ -44,14 +43,13 @@ const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Database 
       pool: {
         min: poolMin,
         max: poolMax,
-        // Idle connections released after 30s to prevent stale connection buildup
-        idleTimeoutMillis: env.int('DATABASE_POOL_IDLE_TIMEOUT', 30000),
+        // Release idle sockets quickly to avoid reusing dead connections on flaky remote hosts.
+        idleTimeoutMillis: env.int('DATABASE_POOL_IDLE_TIMEOUT', 15000),
         acquireTimeoutMillis: connectionTimeout,
-        // Reap stale connections every 10s
-        reapIntervalMillis: 10000,
-        // Kill connections that have been checked out for more than 5 minutes (stuck transactions)
+        // More frequent reap keeps the pool healthy under resets.
+        reapIntervalMillis: 5000,
         createTimeoutMillis: connectionTimeout,
-        destroyTimeoutMillis: 5000,
+        destroyTimeoutMillis: 3000,
       },
     },
     postgres: {

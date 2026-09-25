@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_acf_shared_featured_webinars_media__fe7b7e8d",
+  "info": {
+    "displayName": "Featured Webinars Media Media Cards"
+  },
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "category__tag": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "video_thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "video_link": {
+      "type": "component",
+      "component": "shared.menu-item",
+      "repeatable": false,
+      "required": true
+    },
+    "cta_button": {
+      "type": "component",
+      "component": "shared.menu-item",
+      "repeatable": false
+    }
+  }
+}

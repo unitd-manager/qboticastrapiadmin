@@ -7,14 +7,20 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "show_comment_form": {
       "type": "enumeration",
       "enum": [
         "true",
         "false"
-      ]
+      ],
+      "metadatas": {
+        "label": "Show Comment Form"
+      }
     },
     "comment_form_col": {
       "type": "enumeration",
@@ -31,13 +37,22 @@
         "col-md-10",
         "col-md-11",
         "col-md-12"
-      ]
+      ],
+      "metadatas": {
+        "label": "Comment Form Col"
+      }
     },
     "comment_form_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Comment Form Title"
+      }
     },
     "comment_form_description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Comment Form Description"
+      }
     },
     "contact_details_col": {
       "type": "enumeration",
@@ -54,33 +69,54 @@
         "col-md-10",
         "col-md-11",
         "col-md-12"
-      ]
+      ],
+      "metadatas": {
+        "label": "Contact Details Col"
+      }
     },
     "image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Image"
+      }
     },
     "contact_details": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.form-with-contact-info-contact-details"
+      "component": "acf-shared.form-with-contact-info-contact-details",
+      "metadatas": {
+        "label": "Contact Details"
+      }
     },
     "social_media_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Social Media Title"
+      }
     },
     "social_media_link": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.form-with-contact-info-social-media-link"
+      "component": "acf-shared.form-with-contact-info-social-media-link",
+      "metadatas": {
+        "label": "Social Media Link"
+      }
     },
     "class_name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Class Name"
+      }
     },
     "acf_id": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Acf Id"
+      }
     }
   }
 }

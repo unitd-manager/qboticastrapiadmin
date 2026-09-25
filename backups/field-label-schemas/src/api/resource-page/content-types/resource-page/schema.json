@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resource_pages",
+  "info": {
+    "displayName": "Resource Page",
+    "singularName": "resource-page",
+    "pluralName": "resource-pages"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "acf": {
+      "type": "json"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "legacyPageId": {
+      "type": "integer"
+    },
+    "legacyPageDocumentId": {
+      "type": "string"
+    },
+    "pageBuilder": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.hero",
+        "sections.cta",
+        "acf-sections.banner-layout",
+        "acf-sections.blog-layout",
+        "acf-sections.common-cta",
+        "acf-sections.footer-common-cta",
+        "acf-sections.latest-post",
+        "acf-sections.latest-webinars",
+        "acf-sections.featured-webinars-media",
+        "acf-sections.common-posts-slider",
+        "acf-sections.classic-post-slider",
+        "acf-sections.resource-grid-layout",
+        "acf-sections.use-cases-grid",
+        "acf-sections.use-case-single",
+        "acf-sections.white-paper-single",
+        "acf-sections.usecase-industry-filter",
+        "acf-sections.usecase-highlight-block",
+        "acf-sections.timeline-sections",
+        "acf-sections.session-item-sections",
+        "acf-sections.roundtable-sessions-sections",
+        "acf-sections.spacing",
+        "acf-sections.section-space-padding",
+        "acf-sections.unmapped-layout"
+      ]
+    }
+  }
+}

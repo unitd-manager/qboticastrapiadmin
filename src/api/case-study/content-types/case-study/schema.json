@@ -8,35 +8,62 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Title"
+      }
     },
     "slug": {
       "type": "uid",
-      "targetField": "title"
+      "targetField": "title",
+      "metadatas": {
+        "label": "Slug"
+      }
     },
     "client": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Client"
+      }
     },
     "industry": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Industry"
+      }
     },
     "challenge": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Challenge"
+      }
     },
     "solution": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Solution"
+      }
     },
     "results": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Results"
+      }
     },
     "featuredImage": {
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "metadatas": {
+        "label": "Featured Image"
+      }
     },
     "seo": {
       "type": "component",
       "component": "shared.seo",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Seo"
+      }
     }
   }
 }

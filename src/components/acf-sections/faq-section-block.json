@@ -7,21 +7,36 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "display_options": {
-      "type": "json"
+      "type": "json",
+      "metadatas": {
+        "label": "Display Options"
+      }
     },
     "main_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Main Title"
+      }
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "faq_question_and_answer": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.faq-section-block-faq-question-and-answer"
+      "component": "acf-shared.faq-section-block-faq-question-and-answer",
+      "metadatas": {
+        "label": "Faq Question And Answer"
+      }
     }
   }
 }

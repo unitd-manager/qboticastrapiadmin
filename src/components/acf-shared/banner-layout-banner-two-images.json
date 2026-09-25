@@ -9,14 +9,20 @@
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Main Image"
+      }
     },
     "secondary_image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Secondary Image"
+      }
     }
   }
 }

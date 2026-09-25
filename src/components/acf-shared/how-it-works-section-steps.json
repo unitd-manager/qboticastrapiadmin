@@ -5,7 +5,10 @@
   },
   "attributes": {
     "heading": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Heading"
+      }
     }
   }
 }

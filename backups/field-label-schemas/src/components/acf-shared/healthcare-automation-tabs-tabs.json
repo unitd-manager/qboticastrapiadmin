@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_acf_shared_healthcare_automation_tabs_tabs",
+  "info": {
+    "displayName": "Healthcare Automation Tabs Tabs"
+  },
+  "attributes": {
+    "tab_tltle": {
+      "type": "string"
+    },
+    "tab_sub_title": {
+      "type": "string"
+    },
+    "tab_description": {
+      "type": "richtext"
+    },
+    "tab_list_title": {
+      "type": "string"
+    },
+    "tab_list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "acf-shared.healthcare-automation-tabs-tabs-tab-list"
+    }
+  }
+}

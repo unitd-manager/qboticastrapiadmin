@@ -5,10 +5,16 @@
   },
   "attributes": {
     "padding_top_desktop": {
-      "type": "integer"
+      "type": "integer",
+      "metadatas": {
+        "label": "Padding Top Desktop"
+      }
     },
     "padding_bottom_desktop": {
-      "type": "integer"
+      "type": "integer",
+      "metadatas": {
+        "label": "Padding Bottom Desktop"
+      }
     }
   }
 }

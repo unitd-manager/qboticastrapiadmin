@@ -7,31 +7,52 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "main_title": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Main Title"
+      }
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Image"
+      }
     },
     "features": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.image-text-feature-boxes-features"
+      "component": "acf-shared.image-text-feature-boxes-features",
+      "metadatas": {
+        "label": "Features"
+      }
     },
     "class_name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Class Name"
+      }
     },
     "acf_id": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Acf Id"
+      }
     }
   }
 }

@@ -5,10 +5,16 @@
   },
   "attributes": {
     "section_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Section Title"
+      }
     },
     "section_content": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Section Content"
+      }
     }
   }
 }

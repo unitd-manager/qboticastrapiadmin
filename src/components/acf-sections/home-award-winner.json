@@ -7,15 +7,24 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "main_title": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Main Title"
+      }
     },
     "award_winner_list": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.home-award-winner-award-winner-list"
+      "component": "acf-shared.home-award-winner-award-winner-list",
+      "metadatas": {
+        "label": "Award Winner List"
+      }
     }
   }
 }

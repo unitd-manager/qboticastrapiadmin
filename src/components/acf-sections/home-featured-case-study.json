@@ -7,23 +7,41 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "title": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Title"
+      }
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "video_iframe": {
       "type": "text",
-      "description": "Allow raw iframe HTML to be pasted"
+      "description": "Allow raw iframe HTML to be pasted",
+      "metadatas": {
+        "label": "Video Iframe"
+      }
     },
     "class_name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Class Name"
+      }
     },
     "acf_id": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Acf Id"
+      }
     }
   }
 }

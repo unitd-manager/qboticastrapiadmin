@@ -5,31 +5,49 @@
   },
   "attributes": {
     "title": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Title"
+      }
     },
     "category__tag": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Category Tag"
+      }
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "video_thumbnail": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Video Thumbnail"
+      }
     },
     "video_link": {
       "type": "component",
       "component": "shared.menu-item",
       "repeatable": false,
-      "required": true
+      "required": true,
+      "metadatas": {
+        "label": "Video Link"
+      }
     },
     "cta_button": {
       "type": "component",
       "component": "shared.menu-item",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Cta Button"
+      }
     }
   }
 }

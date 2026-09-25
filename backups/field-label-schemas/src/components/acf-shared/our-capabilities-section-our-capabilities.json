@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_acf_shared_our_capabilities_section_9f378138",
+  "info": {
+    "displayName": "Our Capabilities Section Our Capabilities"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "background_type": {
+      "type": "enumeration",
+      "enum": [
+        "color",
+        "image"
+      ]
+    },
+    "background_color": {
+      "type": "string"
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

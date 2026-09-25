@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_acf_shared_about_team_section_team__a7e06155",
+  "info": {
+    "displayName": "Team Section Team Members Member"
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "profile_picture": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "bio_url": {
+      "type": "component",
+      "component": "shared.menu-item",
+      "repeatable": false
+    }
+  }
+}

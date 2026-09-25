@@ -7,21 +7,36 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Title"
+      }
     },
     "items": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.about-latest-updates-section-items"
+      "component": "acf-shared.about-latest-updates-section-items",
+      "metadatas": {
+        "label": "Items"
+      }
     },
     "class_name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Class Name"
+      }
     },
     "acf_id": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Acf Id"
+      }
     }
   }
 }

@@ -9,25 +9,40 @@
       "enum": [
         "is_image",
         "is_content"
-      ]
+      ],
+      "metadatas": {
+        "label": "Type"
+      }
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Title"
+      }
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Image"
+      }
     },
     "link": {
       "type": "component",
       "component": "shared.menu-item",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Link"
+      }
     }
   }
 }

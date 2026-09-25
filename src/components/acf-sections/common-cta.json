@@ -7,25 +7,40 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Title"
+      }
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "button": {
       "type": "component",
       "component": "shared.menu-item",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Button"
+      }
     },
     "image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Image"
+      }
     }
   }
 }

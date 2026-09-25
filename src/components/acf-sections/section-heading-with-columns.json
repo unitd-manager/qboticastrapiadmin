@@ -7,10 +7,16 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "heading_text": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Heading Text"
+      }
     },
     "heading_tag": {
       "type": "enumeration",
@@ -21,7 +27,10 @@
         "h4",
         "h5",
         "h6"
-      ]
+      ],
+      "metadatas": {
+        "label": "Heading Tag"
+      }
     },
     "heading_column": {
       "type": "enumeration",
@@ -38,17 +47,26 @@
         "col-md-10",
         "col-md-11",
         "col-md-12"
-      ]
+      ],
+      "metadatas": {
+        "label": "Heading Column"
+      }
     },
     "heading_position": {
       "type": "enumeration",
       "enum": [
         "left",
         "right"
-      ]
+      ],
+      "metadatas": {
+        "label": "Heading Position"
+      }
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "description_column": {
       "type": "enumeration",
@@ -65,21 +83,36 @@
         "col-md-10",
         "col-md-11",
         "col-md-12"
-      ]
+      ],
+      "metadatas": {
+        "label": "Description Column"
+      }
     },
     "cta_button": {
       "type": "component",
       "component": "shared.menu-item",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Cta Button"
+      }
     },
     "background_color": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Background Color"
+      }
     },
     "class_name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Class Name"
+      }
     },
     "acf_id": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Acf Id"
+      }
     }
   }
 }

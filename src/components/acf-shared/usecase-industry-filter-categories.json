@@ -7,10 +7,16 @@
     "category_label_and_link": {
       "type": "component",
       "component": "shared.menu-item",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Category Label And Link"
+      }
     },
     "is_active": {
-      "type": "boolean"
+      "type": "boolean",
+      "metadatas": {
+        "label": "Is Active"
+      }
     }
   }
 }

@@ -5,13 +5,22 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Title"
+      }
     },
     "subtitle": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Subtitle"
+      }
     },
     "image": {
-      "type": "media"
+      "type": "media",
+      "metadatas": {
+        "label": "Image"
+      }
     }
   }
 }

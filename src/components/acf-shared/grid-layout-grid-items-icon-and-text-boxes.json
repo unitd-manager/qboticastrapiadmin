@@ -12,12 +12,18 @@
         "col-md-4",
         "col-md-5",
         "col-md-6"
-      ]
+      ],
+      "metadatas": {
+        "label": "Column"
+      }
     },
     "list": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.grid-layout-grid-items-icon-and-text-boxes-list"
+      "component": "acf-shared.grid-layout-grid-items-icon-and-text-boxes-list",
+      "metadatas": {
+        "label": "List"
+      }
     }
   }
 }

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_acf_shared_white_paper_single_relat_7196a088",
+  "info": {
+    "displayName": "White Paper Single Related White Papers"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "source": {
+      "type": "enumeration",
+      "enum": [
+        "posts",
+        "pages"
+      ]
+    },
+    "posts_to_show": {
+      "type": "enumeration",
+      "enum": [
+        "latest_published",
+        "oldest_published",
+        "latest_modified",
+        "oldest_modified",
+        "title_asc",
+        "title_desc",
+        "most_commented",
+        "random",
+        "custom"
+      ]
+    },
+    "posts_limit": {
+      "type": "string",
+      "default": "5"
+    }
+  }
+}

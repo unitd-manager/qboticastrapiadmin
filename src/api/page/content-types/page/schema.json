@@ -29,31 +29,6 @@
       "repeatable": false,
       "component": "shared.seo"
     },
-    "pageType": {
-      "type": "enumeration",
-      "enum": [
-        "landing",
-        "blog",
-        "about",
-        "service",
-        "career",
-        "resource"
-      ],
-      "default": "landing",
-      "pluginOptions": {
-        "content-manager": {
-          "visible": false
-        }
-      }
-    },
-    "acf": {
-      "type": "json",
-      "pluginOptions": {
-        "content-manager": {
-          "visible": false
-        }
-      }
-    },
     "pageBuilder": {
       "type": "dynamiczone",
       "configurable": false,

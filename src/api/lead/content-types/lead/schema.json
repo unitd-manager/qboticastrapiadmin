@@ -8,16 +8,28 @@
   },
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Name"
+      }
     },
     "email": {
-      "type": "email"
+      "type": "email",
+      "metadatas": {
+        "label": "Email"
+      }
     },
     "phone": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Phone"
+      }
     },
     "message": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Message"
+      }
     }
   }
 }

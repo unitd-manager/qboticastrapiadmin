@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_acf_shared_home_industry_automation_75812405",
+  "info": {
+    "displayName": "Home Industry Automation Solutions Main Solutions Solutions List"
+  },
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "is_image",
+        "is_content"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "link": {
+      "type": "component",
+      "component": "shared.menu-item",
+      "repeatable": false
+    }
+  }
+}

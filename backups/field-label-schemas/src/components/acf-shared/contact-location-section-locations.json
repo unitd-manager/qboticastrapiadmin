@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_acf_shared_contact_location_section_ad02f5f3",
+  "info": {
+    "displayName": "Contact Location Section Locations"
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

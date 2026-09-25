@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_acf_shared_latest_webinars_webinars",
+  "info": {
+    "displayName": "Latest Webinars Webinars"
+  },
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "video_thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "video_link": {
+      "type": "component",
+      "component": "shared.menu-item",
+      "repeatable": false,
+      "required": true
+    },
+    "cta_button": {
+      "type": "component",
+      "component": "shared.menu-item",
+      "repeatable": false
+    }
+  }
+}

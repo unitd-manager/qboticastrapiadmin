@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_acf_shared_grid_layout_grid_items_i_418eef2b",
+  "info": {
+    "displayName": "Grid Layout Grid Items Icon and Text Boxes List"
+  },
+  "attributes": {
+    "icon_position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right",
+        "center"
+      ]
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "description",
+        "list"
+      ]
+    },
+    "text_align": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "justify",
+        "center"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "acf-shared.grid-layout-grid-items-icon-and-text-boxes-list-list"
+    },
+    "link": {
+      "type": "component",
+      "component": "shared.menu-item",
+      "repeatable": false
+    }
+  }
+}

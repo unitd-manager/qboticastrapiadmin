@@ -7,20 +7,32 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "main_title": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Main Title"
+      }
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "source": {
       "type": "enumeration",
       "enum": [
         "posts",
         "related"
-      ]
+      ],
+      "metadatas": {
+        "label": "Source"
+      }
     },
     "posts_to_show": {
       "type": "enumeration",
@@ -34,65 +46,101 @@
         "most_commented",
         "random",
         "custom"
-      ]
+      ],
+      "metadatas": {
+        "label": "Posts To Show"
+      }
     },
     "filter_by_category": {
-      "type": "json"
+      "type": "json",
+      "metadatas": {
+        "label": "Filter By Category"
+      }
     },
     "filter_by_tag": {
-      "type": "json"
+      "type": "json",
+      "metadatas": {
+        "label": "Filter By Tag"
+      }
     },
     "filter_by_post_format": {
       "type": "enumeration",
       "enum": [
         "all",
         "standard"
-      ]
+      ],
+      "metadatas": {
+        "label": "Filter By Post Format"
+      }
     },
     "posts_limit": {
       "type": "integer",
       "default": 5,
       "min": 1,
-      "max": 5
+      "max": 5,
+      "metadatas": {
+        "label": "Posts Limit"
+      }
     },
     "show_title": {
       "type": "enumeration",
       "enum": [
         "yes",
         "no"
-      ]
+      ],
+      "metadatas": {
+        "label": "Show Title"
+      }
     },
     "show_description": {
       "type": "enumeration",
       "enum": [
         "yes",
         "no"
-      ]
+      ],
+      "metadatas": {
+        "label": "Show Description"
+      }
     },
     "show_feature_image": {
       "type": "enumeration",
       "enum": [
         "yes",
         "no"
-      ]
+      ],
+      "metadatas": {
+        "label": "Show Feature Image"
+      }
     },
     "show_date": {
       "type": "enumeration",
       "enum": [
         "yes",
         "no"
-      ]
+      ],
+      "metadatas": {
+        "label": "Show Date"
+      }
     },
     "cta_button": {
       "type": "component",
       "component": "shared.menu-item",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Cta Button"
+      }
     },
     "class_name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Class Name"
+      }
     },
     "acf_id": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Acf Id"
+      }
     }
   }
 }

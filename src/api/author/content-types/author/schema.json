@@ -8,20 +8,35 @@
   },
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Name"
+      }
     },
     "email": {
-      "type": "email"
+      "type": "email",
+      "metadatas": {
+        "label": "Email"
+      }
     },
     "designation": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Designation"
+      }
     },
     "bio": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Bio"
+      }
     },
     "avatar": {
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "metadatas": {
+        "label": "Avatar"
+      }
     }
   }
 }

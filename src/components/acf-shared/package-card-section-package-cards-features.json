@@ -5,7 +5,10 @@
   },
   "attributes": {
     "feature_item": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Feature Item"
+      }
     }
   }
 }

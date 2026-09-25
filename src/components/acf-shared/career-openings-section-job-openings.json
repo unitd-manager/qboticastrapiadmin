@@ -5,29 +5,50 @@
   },
   "attributes": {
     "job_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Job Title"
+      }
     },
     "general_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "General Title"
+      }
     },
     "general_description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "General Description"
+      }
     },
     "job_location": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Job Location"
+      }
     },
     "job_type": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Job Type"
+      }
     },
     "job_link": {
       "type": "component",
       "component": "shared.menu-item",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Job Link"
+      }
     },
     "job_section": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.career-openings-section-job-openings-job-section"
+      "component": "acf-shared.career-openings-section-job-openings-job-section",
+      "metadatas": {
+        "label": "Job Section"
+      }
     }
   }
 }

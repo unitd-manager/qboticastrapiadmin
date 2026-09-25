@@ -8,20 +8,35 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Title"
+      }
     },
     "acf": {
-      "type": "json"
+      "type": "json",
+      "metadatas": {
+        "label": "Acf"
+      }
     },
     "slug": {
       "type": "uid",
-      "targetField": "title"
+      "targetField": "title",
+      "metadatas": {
+        "label": "Slug"
+      }
     },
     "legacyPageId": {
-      "type": "integer"
+      "type": "integer",
+      "metadatas": {
+        "label": "Legacy Page Id"
+      }
     },
     "legacyPageDocumentId": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Legacy Page Document Id"
+      }
     },
     "pageBuilder": {
       "type": "dynamiczone",
@@ -49,7 +64,10 @@
         "acf-sections.spacing",
         "acf-sections.section-space-padding",
         "acf-sections.unmapped-layout"
-      ]
+      ],
+      "metadatas": {
+        "label": "Page Builder"
+      }
     }
   }
 }

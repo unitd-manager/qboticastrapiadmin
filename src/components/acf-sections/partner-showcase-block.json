@@ -7,21 +7,36 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "main_title": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Main Title"
+      }
     },
     "partner_logos": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.partner-showcase-block-partner-logos"
+      "component": "acf-shared.partner-showcase-block-partner-logos",
+      "metadatas": {
+        "label": "Partner Logos"
+      }
     },
     "class_name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Class Name"
+      }
     },
     "acf_id": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Acf Id"
+      }
     }
   }
 }

@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_acf_shared_how_it_works_section_steps",
+  "info": {
+    "displayName": "How IT Works Section Steps"
+  },
+  "attributes": {
+    "heading": {
+      "type": "richtext"
+    }
+  }
+}

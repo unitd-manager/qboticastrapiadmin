@@ -5,12 +5,18 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Title"
+      }
     },
     "items": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.use-case-single-sidebar-items-items"
+      "component": "acf-shared.use-case-single-sidebar-items-items",
+      "metadatas": {
+        "label": "Items"
+      }
     }
   }
 }

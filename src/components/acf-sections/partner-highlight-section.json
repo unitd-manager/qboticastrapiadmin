@@ -7,17 +7,26 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "display_options": {
-      "type": "json"
+      "type": "json",
+      "metadatas": {
+        "label": "Display Options"
+      }
     },
     "image_position": {
       "type": "enumeration",
       "enum": [
         "left",
         "right"
-      ]
+      ],
+      "metadatas": {
+        "label": "Image Position"
+      }
     },
     "vertical_align": {
       "type": "enumeration",
@@ -25,7 +34,10 @@
         "top",
         "middle",
         "bottom"
-      ]
+      ],
+      "metadatas": {
+        "label": "Vertical Align"
+      }
     },
     "text_alignment": {
       "type": "enumeration",
@@ -33,39 +45,66 @@
         "left",
         "center",
         "right"
-      ]
+      ],
+      "metadatas": {
+        "label": "Text Alignment"
+      }
     },
     "main_title": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Main Title"
+      }
     },
     "sub_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Sub Title"
+      }
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "partner_highlights": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.partner-highlight-section-partner-highlights"
+      "component": "acf-shared.partner-highlight-section-partner-highlights",
+      "metadatas": {
+        "label": "Partner Highlights"
+      }
     },
     "cta_button": {
       "type": "component",
       "component": "shared.menu-item",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Cta Button"
+      }
     },
     "image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Image"
+      }
     },
     "class_name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Class Name"
+      }
     },
     "acf_id": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Acf Id"
+      }
     }
   }
 }

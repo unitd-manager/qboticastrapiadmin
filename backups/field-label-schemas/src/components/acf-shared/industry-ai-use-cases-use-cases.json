@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_acf_shared_industry_ai_use_cases_use_cases",
+  "info": {
+    "displayName": "Industry AI Use Cases Use Cases"
+  },
+  "attributes": {
+    "column": {
+      "type": "enumeration",
+      "enum": [
+        "col-md-1",
+        "col-md-2",
+        "col-md-3",
+        "col-md-4",
+        "col-md-5",
+        "col-md-6",
+        "col-md-7",
+        "col-md-8",
+        "col-md-9",
+        "col-md-10",
+        "col-md-11",
+        "col-md-12"
+      ]
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "description",
+        "list"
+      ]
+    },
+    "text_align": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "justify",
+        "center"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "acf-shared.industry-ai-use-cases-use-cases-list"
+    }
+  }
+}

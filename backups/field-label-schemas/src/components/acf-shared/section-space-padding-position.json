@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_acf_shared_section_space_padding_position",
+  "info": {
+    "displayName": "Section Space (Padding) Position"
+  },
+  "attributes": {
+    "top": {
+      "type": "boolean"
+    },
+    "bottom": {
+      "type": "boolean"
+    }
+  }
+}

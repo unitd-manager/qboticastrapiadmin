@@ -7,23 +7,38 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "main_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Main Title"
+      }
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "automation_edge_list": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.home-automation-edge-automation-edge-list"
+      "component": "acf-shared.home-automation-edge-automation-edge-list",
+      "metadatas": {
+        "label": "Automation Edge List"
+      }
     },
     "cta_button": {
       "type": "component",
       "component": "shared.menu-item",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Cta Button"
+      }
     }
   }
 }

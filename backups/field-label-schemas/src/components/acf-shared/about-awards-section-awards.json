@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_acf_shared_about_awards_section_awards",
+  "info": {
+    "displayName": "Awards Section Awards"
+  },
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -5,20 +5,32 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Title"
+      }
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Image"
+      }
     },
     "chart": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Chart"
+      }
     }
   }
 }

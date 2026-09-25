@@ -7,23 +7,38 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "main_title": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Main Title"
+      }
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "post_type": {
       "type": "enumeration",
       "enum": [
         "recent_posts",
         "select_post"
-      ]
+      ],
+      "metadatas": {
+        "label": "Post Type"
+      }
     },
     "select_post": {
-      "type": "json"
+      "type": "json",
+      "metadatas": {
+        "label": "Select Post"
+      }
     },
     "recent_post_type": {
       "type": "enumeration",
@@ -32,13 +47,19 @@
         "posts",
         "usecases",
         "case-studies"
-      ]
+      ],
+      "metadatas": {
+        "label": "Recent Post Type"
+      }
     },
     "post_per_page": {
       "type": "integer",
       "default": 5,
       "min": 1,
-      "max": 5
+      "max": 5,
+      "metadatas": {
+        "label": "Post Per Page"
+      }
     }
   }
 }

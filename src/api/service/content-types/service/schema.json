@@ -8,30 +8,51 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Title"
+      }
     },
     "slug": {
       "type": "uid",
-      "targetField": "title"
+      "targetField": "title",
+      "metadatas": {
+        "label": "Slug"
+      }
     },
     "shortDescription": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Short Description"
+      }
     },
     "content": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Content"
+      }
     },
     "banner": {
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "metadatas": {
+        "label": "Banner"
+      }
     },
     "icon": {
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "metadatas": {
+        "label": "Icon"
+      }
     },
     "seo": {
       "type": "component",
       "component": "shared.seo",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Seo"
+      }
     }
   }
 }

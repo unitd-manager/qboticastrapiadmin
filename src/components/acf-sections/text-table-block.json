@@ -7,18 +7,30 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "main_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Main Title"
+      }
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "table": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-shared.text-table-block-table"
+      "component": "acf-shared.text-table-block-table",
+      "metadatas": {
+        "label": "Table"
+      }
     }
   }
 }

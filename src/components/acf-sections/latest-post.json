@@ -7,17 +7,26 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "display_type": {
       "type": "enumeration",
       "enum": [
         "last_post",
         "select_post"
-      ]
+      ],
+      "metadatas": {
+        "label": "Display Type"
+      }
     },
     "select_post": {
-      "type": "json"
+      "type": "json",
+      "metadatas": {
+        "label": "Select Post"
+      }
     }
   }
 }

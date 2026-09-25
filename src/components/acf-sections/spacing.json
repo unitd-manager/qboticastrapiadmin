@@ -7,16 +7,28 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "space_height_desktop": {
-      "type": "integer"
+      "type": "integer",
+      "metadatas": {
+        "label": "Space Height Desktop"
+      }
     },
     "space_height_mobile": {
-      "type": "integer"
+      "type": "integer",
+      "metadatas": {
+        "label": "Space Height Mobile"
+      }
     },
     "background_color": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Background Color"
+      }
     }
   }
 }

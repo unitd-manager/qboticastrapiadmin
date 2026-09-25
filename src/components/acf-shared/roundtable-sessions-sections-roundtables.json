@@ -5,31 +5,52 @@
   },
   "attributes": {
     "roundtable_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Roundtable Title"
+      }
     },
     "table": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-shared.roundtable-sessions-sections-roundtables-table"
+      "component": "acf-shared.roundtable-sessions-sections-roundtables-table",
+      "metadatas": {
+        "label": "Table"
+      }
     },
     "speaker_image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Speaker Image"
+      }
     },
     "speaker_name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Speaker Name"
+      }
     },
     "speaker_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Speaker Title"
+      }
     },
     "speaker_company": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Speaker Company"
+      }
     },
     "speaker_role_label": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Speaker Role Label"
+      }
     }
   }
 }

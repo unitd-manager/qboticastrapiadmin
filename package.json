@@ -9,6 +9,7 @@
     "build:page-schema": "node scripts/generate-page-schema.js",
     "build:types": "node scripts/run-strapi.js ts:generate-types",
     "build": "node scripts/run-strapi.js build",
+    "label:convert": "node scripts/convert-field-labels.js",
     "backfill:pages": "node scripts/backfill-page-builder-from-acf.js",
     "console": "node scripts/run-strapi.js console",
     "deploy": "node scripts/run-strapi.js deploy",
@@ -42,6 +43,7 @@
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
     "slugify": "^1.6.9",
+    "strapi-schema-extender": "^1.1.0",
     "styled-components": "^6.0.0"
   },
   "devDependencies": {

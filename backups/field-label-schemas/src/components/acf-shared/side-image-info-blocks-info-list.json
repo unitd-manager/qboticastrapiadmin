@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_acf_shared_side_image_info_blocks_info_list",
+  "info": {
+    "displayName": "Side Image Info Blocks Info List"
+  },
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

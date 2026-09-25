@@ -7,31 +7,52 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "tagline": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Tagline"
+      }
     },
     "main_title": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Main Title"
+      }
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "sub_description": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Sub Description"
+      }
     },
     "background_image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Background Image"
+      }
     },
     "buttons": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.solution-hero-banner-with-cta-buttons"
+      "component": "acf-shared.solution-hero-banner-with-cta-buttons",
+      "metadatas": {
+        "label": "Buttons"
+      }
     },
     "background_color": {
       "type": "enumeration",
@@ -40,13 +61,22 @@
         "rgba(255, 119, 5, 0.10)",
         "#FF7705",
         "transparent"
-      ]
+      ],
+      "metadatas": {
+        "label": "Background Color"
+      }
     },
     "class_name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Class Name"
+      }
     },
     "acf_id": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Acf Id"
+      }
     }
   }
 }

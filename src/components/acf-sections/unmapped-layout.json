@@ -7,19 +7,34 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "layout_type": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Layout Type"
+      }
     },
     "title": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Title"
+      }
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "raw_fields": {
-      "type": "json"
+      "type": "json",
+      "metadatas": {
+        "label": "Raw Fields"
+      }
     }
   }
 }

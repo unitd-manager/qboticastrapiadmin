@@ -9,13 +9,22 @@
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Icon"
+      }
     },
     "heading": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Heading"
+      }
     },
     "description": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Description"
+      }
     }
   }
 }

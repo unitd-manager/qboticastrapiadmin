@@ -7,23 +7,38 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "main_title": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Main Title"
+      }
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "highlights": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.impact-highlights-section-highlights"
+      "component": "acf-shared.impact-highlights-section-highlights",
+      "metadatas": {
+        "label": "Highlights"
+      }
     },
     "cta_button": {
       "type": "component",
       "component": "shared.menu-item",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Cta Button"
+      }
     },
     "background_color": {
       "type": "enumeration",
@@ -33,13 +48,22 @@
         "#FF7705",
         "linear-gradient(90deg, #D05F00 2.24%, #FF7705 99.69%)",
         "transparent"
-      ]
+      ],
+      "metadatas": {
+        "label": "Background Color"
+      }
     },
     "class_name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Class Name"
+      }
     },
     "acf_id": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Acf Id"
+      }
     }
   }
 }

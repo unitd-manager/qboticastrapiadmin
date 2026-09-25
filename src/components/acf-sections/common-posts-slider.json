@@ -7,30 +7,48 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "main_title": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Main Title"
+      }
     },
     "common_description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Common Description"
+      }
     },
     "post_type": {
       "type": "enumeration",
       "enum": [
         "post",
         "page"
-      ]
+      ],
+      "metadatas": {
+        "label": "Post Type"
+      }
     },
     "selected_items": {
       "type": "json",
-      "customField": "plugin::custom.common-posts-picker"
+      "customField": "plugin::custom.common-posts-picker",
+      "metadatas": {
+        "label": "Selected Items"
+      }
     },
     "post_per_page": {
       "type": "integer",
       "default": 5,
       "min": 1,
-      "max": 5
+      "max": 5,
+      "metadatas": {
+        "label": "Post Per Page"
+      }
     },
     "order_by": {
       "type": "enumeration",
@@ -38,46 +56,70 @@
         "date",
         "title",
         "default"
-      ]
+      ],
+      "metadatas": {
+        "label": "Order By"
+      }
     },
     "show_title": {
       "type": "enumeration",
       "enum": [
         "yes",
         "no"
-      ]
+      ],
+      "metadatas": {
+        "label": "Show Title"
+      }
     },
     "show_feature_image": {
       "type": "enumeration",
       "enum": [
         "yes",
         "no"
-      ]
+      ],
+      "metadatas": {
+        "label": "Show Feature Image"
+      }
     },
     "show_description": {
       "type": "enumeration",
       "enum": [
         "yes",
         "no"
-      ]
+      ],
+      "metadatas": {
+        "label": "Show Description"
+      }
     },
     "show_date": {
       "type": "enumeration",
       "enum": [
         "yes",
         "no"
-      ]
+      ],
+      "metadatas": {
+        "label": "Show Date"
+      }
     },
     "cta_button": {
       "type": "component",
       "component": "shared.menu-item",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Cta Button"
+      }
     },
     "class_name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Class Name"
+      }
     },
     "acf_id": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Acf Id"
+      }
     }
   }
 }

@@ -8,20 +8,35 @@
   },
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Name"
+      }
     },
     "designation": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Designation"
+      }
     },
     "company": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Company"
+      }
     },
     "image": {
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "metadatas": {
+        "label": "Image"
+      }
     },
     "testimonial": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Testimonial"
+      }
     }
   }
 }

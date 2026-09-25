@@ -5,12 +5,18 @@
   },
   "attributes": {
     "main_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Main Title"
+      }
     },
     "solutions_list": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.home-industry-automation-solutions-main-solutions-solutions-list"
+      "component": "acf-shared.home-industry-automation-solutions-main-solutions-solutions-list",
+      "metadatas": {
+        "label": "Solutions List"
+      }
     }
   }
 }

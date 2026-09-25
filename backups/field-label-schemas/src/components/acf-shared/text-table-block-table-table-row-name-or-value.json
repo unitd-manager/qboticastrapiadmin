@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_acf_shared_text_table_block_table_t_5d8476cd",
+  "info": {
+    "displayName": "Text Table Block Table Table Row Name Or Value"
+  },
+  "attributes": {
+    "name": {
+      "type": "richtext"
+    }
+  }
+}

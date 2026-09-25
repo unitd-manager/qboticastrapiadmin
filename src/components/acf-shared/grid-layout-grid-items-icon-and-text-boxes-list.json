@@ -10,24 +10,36 @@
         "left",
         "right",
         "center"
-      ]
+      ],
+      "metadatas": {
+        "label": "Icon Position"
+      }
     },
     "icon": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Icon"
+      }
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Title"
+      }
     },
     "type": {
       "type": "enumeration",
       "enum": [
         "description",
         "list"
-      ]
+      ],
+      "metadatas": {
+        "label": "Type"
+      }
     },
     "text_align": {
       "type": "enumeration",
@@ -35,20 +47,32 @@
         "left",
         "justify",
         "center"
-      ]
+      ],
+      "metadatas": {
+        "label": "Text Align"
+      }
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "list": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.grid-layout-grid-items-icon-and-text-boxes-list-list"
+      "component": "acf-shared.grid-layout-grid-items-icon-and-text-boxes-list-list",
+      "metadatas": {
+        "label": "List"
+      }
     },
     "link": {
       "type": "component",
       "component": "shared.menu-item",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Link"
+      }
     }
   }
 }

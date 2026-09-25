@@ -5,10 +5,16 @@
   },
   "attributes": {
     "question": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Question"
+      }
     },
     "answer": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Answer"
+      }
     }
   }
 }

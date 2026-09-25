@@ -7,41 +7,74 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "main_title": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Main Title"
+      }
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "highlighted_subtitle": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Highlighted Subtitle"
+      }
     },
     "highlighted_description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Highlighted Description"
+      }
     },
     "features": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-shared.solutions-feature-block-features"
+      "component": "acf-shared.solutions-feature-block-features",
+      "metadatas": {
+        "label": "Features"
+      }
     },
     "common_content": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Common Content"
+      }
     },
     "cta_button": {
       "type": "component",
       "component": "shared.menu-item",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Cta Button"
+      }
     },
     "background_color": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Background Color"
+      }
     },
     "class_name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Class Name"
+      }
     },
     "acf_id": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Acf Id"
+      }
     }
   }
 }

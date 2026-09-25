@@ -666,12 +666,6 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
     draftAndPublish: false;
   };
   attributes: {
-    acf: Schema.Attribute.JSON &
-      Schema.Attribute.SetPluginOptions<{
-        'content-manager': {
-          visible: false;
-        };
-      }>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -770,15 +764,6 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
         'acf-sections.partner-showcase-block',
       ]
     >;
-    pageType: Schema.Attribute.Enumeration<
-      ['landing', 'blog', 'about', 'service', 'career', 'resource']
-    > &
-      Schema.Attribute.SetPluginOptions<{
-        'content-manager': {
-          visible: false;
-        };
-      }> &
-      Schema.Attribute.DefaultTo<'landing'>;
     publishedAt: Schema.Attribute.DateTime;
     seo: Schema.Attribute.Component<'shared.seo', false>;
     slug: Schema.Attribute.UID<'title'> &

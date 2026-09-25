@@ -5,19 +5,28 @@
   },
   "attributes": {
     "feature_title": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Feature Title"
+      }
     },
     "feature_image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Feature Image"
+      }
     },
     "feature_list": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.solutions-feature-block-features-feature-list"
+      "component": "acf-shared.solutions-feature-block-features-feature-list",
+      "metadatas": {
+        "label": "Feature List"
+      }
     }
   }
 }

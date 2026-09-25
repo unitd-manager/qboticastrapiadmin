@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_acf_shared_benefits_grid_layout_fea_7ec5cb1d",
+  "info": {
+    "displayName": "Benefits Grid Layout Features List"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_acf_shared_roundtable_sessions_sect_e500dad9",
+  "info": {
+    "displayName": "Roundtable Sessions Sections Roundtables"
+  },
+  "attributes": {
+    "roundtable_title": {
+      "type": "string"
+    },
+    "table": {
+      "type": "component",
+      "repeatable": false,
+      "component": "acf-shared.roundtable-sessions-sections-roundtables-table"
+    },
+    "speaker_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "speaker_name": {
+      "type": "string"
+    },
+    "speaker_title": {
+      "type": "string"
+    },
+    "speaker_company": {
+      "type": "string"
+    },
+    "speaker_role_label": {
+      "type": "string"
+    }
+  }
+}

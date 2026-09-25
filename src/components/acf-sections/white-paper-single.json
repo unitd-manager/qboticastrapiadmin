@@ -7,33 +7,60 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "main_title": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Main Title"
+      }
     },
     "sub_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Sub Title"
+      }
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "form_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Form Title"
+      }
     },
     "form_embed_code": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Form Embed Code"
+      }
     },
     "related_white_papers": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.white-paper-single-related-white-papers"
+      "component": "acf-shared.white-paper-single-related-white-papers",
+      "metadatas": {
+        "label": "Related White Papers"
+      }
     },
     "class_name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Class Name"
+      }
     },
     "acf_id": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Acf Id"
+      }
     }
   }
 }

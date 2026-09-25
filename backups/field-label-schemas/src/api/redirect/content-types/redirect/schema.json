@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "redirects",
+  "info": {
+    "displayName": "Redirect",
+    "singularName": "redirect",
+    "pluralName": "redirects"
+  },
+  "attributes": {
+    "oldUrl": {
+      "type": "string"
+    },
+    "newUrl": {
+      "type": "string"
+    },
+    "statusCode": {
+      "type": "integer"
+    }
+  }
+}

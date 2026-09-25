@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_acf_shared_grid_layout_grid_items_i_2a0167bb",
+  "info": {
+    "displayName": "Grid Layout Grid Items Icon and Text Boxes"
+  },
+  "attributes": {
+    "column": {
+      "type": "enumeration",
+      "enum": [
+        "col-md-2",
+        "col-md-3",
+        "col-md-4",
+        "col-md-5",
+        "col-md-6"
+      ]
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "acf-shared.grid-layout-grid-items-icon-and-text-boxes-list"
+    }
+  }
+}

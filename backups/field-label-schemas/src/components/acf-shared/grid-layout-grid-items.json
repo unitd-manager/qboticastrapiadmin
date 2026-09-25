@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_acf_shared_grid_layout_grid_items",
+  "info": {
+    "displayName": "Grid Layout Grid Items"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon_and_text_boxes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "acf-shared.grid-layout-grid-items-icon-and-text-boxes"
+    }
+  }
+}

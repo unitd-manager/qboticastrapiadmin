@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wordpress_posts",
+  "info": {
+    "singularName": "wordpress-post",
+    "pluralName": "wordpress-posts",
+    "displayName": "WordPress Posts",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "content-manager": {
+      "visible": false
+    },
+    "content-type-builder": {
+      "visible": false
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

@@ -7,31 +7,46 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "display_options": {
-      "type": "json"
+      "type": "json",
+      "metadatas": {
+        "label": "Display Options"
+      }
     },
     "show_image": {
       "type": "enumeration",
       "enum": [
         "true",
         "false"
-      ]
+      ],
+      "metadatas": {
+        "label": "Show Image"
+      }
     },
     "image_position": {
       "type": "enumeration",
       "enum": [
         "left",
         "right"
-      ]
+      ],
+      "metadatas": {
+        "label": "Image Position"
+      }
     },
     "image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Image"
+      }
     },
     "text_alignment": {
       "type": "enumeration",
@@ -39,34 +54,58 @@
         "left",
         "center",
         "right"
-      ]
+      ],
+      "metadatas": {
+        "label": "Text Alignment"
+      }
     },
     "usecase_category": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Usecase Category"
+      }
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Title"
+      }
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "button": {
       "type": "component",
       "component": "shared.menu-item",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Button"
+      }
     },
     "enable_animation": {
       "type": "enumeration",
       "enum": [
         "true",
         "false"
-      ]
+      ],
+      "metadatas": {
+        "label": "Enable Animation"
+      }
     },
     "class_name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Class Name"
+      }
     },
     "acf_id": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Acf Id"
+      }
     }
   }
 }

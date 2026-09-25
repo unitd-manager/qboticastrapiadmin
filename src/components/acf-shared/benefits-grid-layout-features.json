@@ -19,38 +19,56 @@
         "col-md-10",
         "col-md-11",
         "col-md-12"
-      ]
+      ],
+      "metadatas": {
+        "label": "Column"
+      }
     },
     "image_type": {
       "type": "enumeration",
       "enum": [
         "image",
         "icon"
-      ]
+      ],
+      "metadatas": {
+        "label": "Image Type"
+      }
     },
     "image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Image"
+      }
     },
     "icon": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Icon"
+      }
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Title"
+      }
     },
     "type": {
       "type": "enumeration",
       "enum": [
         "description",
         "list"
-      ]
+      ],
+      "metadatas": {
+        "label": "Type"
+      }
     },
     "text_align": {
       "type": "enumeration",
@@ -58,20 +76,32 @@
         "left",
         "justify",
         "center"
-      ]
+      ],
+      "metadatas": {
+        "label": "Text Align"
+      }
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "list": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.benefits-grid-layout-features-list"
+      "component": "acf-shared.benefits-grid-layout-features-list",
+      "metadatas": {
+        "label": "List"
+      }
     },
     "link": {
       "type": "component",
       "component": "shared.menu-item",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Link"
+      }
     }
   }
 }

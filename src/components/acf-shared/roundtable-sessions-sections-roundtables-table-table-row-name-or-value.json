@@ -5,7 +5,10 @@
   },
   "attributes": {
     "name": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Name"
+      }
     }
   }
 }

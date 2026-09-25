@@ -7,7 +7,10 @@
     "member": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.about-team-section-team-members-member"
+      "component": "acf-shared.about-team-section-team-members-member",
+      "metadatas": {
+        "label": "Member"
+      }
     }
   }
 }

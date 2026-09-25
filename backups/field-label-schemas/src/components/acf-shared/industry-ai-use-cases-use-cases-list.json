@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_acf_shared_industry_ai_use_cases_us_5e845ce7",
+  "info": {
+    "displayName": "Industry AI Use Cases Use Cases List"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

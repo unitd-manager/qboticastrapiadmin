@@ -5,22 +5,34 @@
   },
   "attributes": {
     "padding_options": {
-      "type": "boolean"
+      "type": "boolean",
+      "metadatas": {
+        "label": "Padding Options"
+      }
     },
     "padding_position": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-shared.section-space-padding-position"
+      "component": "acf-shared.section-space-padding-position",
+      "metadatas": {
+        "label": "Padding Position"
+      }
     },
     "desktop_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-shared.section-space-padding-desktop-padding"
+      "component": "acf-shared.section-space-padding-desktop-padding",
+      "metadatas": {
+        "label": "Desktop Padding"
+      }
     },
     "mobile_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-shared.section-space-padding-mobile-padding"
+      "component": "acf-shared.section-space-padding-mobile-padding",
+      "metadatas": {
+        "label": "Mobile Padding"
+      }
     }
   }
 }

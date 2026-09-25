@@ -7,10 +7,16 @@
     "link": {
       "type": "component",
       "component": "shared.menu-item",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Link"
+      }
     },
     "icon": {
-      "type": "json"
+      "type": "json",
+      "metadatas": {
+        "label": "Icon"
+      }
     }
   }
 }

@@ -19,17 +19,26 @@
         "col-md-10",
         "col-md-11",
         "col-md-12"
-      ]
+      ],
+      "metadatas": {
+        "label": "Column"
+      }
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Title"
+      }
     },
     "type": {
       "type": "enumeration",
       "enum": [
         "description",
         "list"
-      ]
+      ],
+      "metadatas": {
+        "label": "Type"
+      }
     },
     "text_align": {
       "type": "enumeration",
@@ -37,15 +46,24 @@
         "left",
         "justify",
         "center"
-      ]
+      ],
+      "metadatas": {
+        "label": "Text Align"
+      }
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "list": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.step-cards-section-steps-list"
+      "component": "acf-shared.step-cards-section-steps-list",
+      "metadatas": {
+        "label": "List"
+      }
     }
   }
 }

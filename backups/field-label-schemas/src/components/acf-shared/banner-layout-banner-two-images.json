@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_acf_shared_banner_layout_banner_two_images",
+  "info": {
+    "displayName": "Banner Layout Banner Two Images"
+  },
+  "attributes": {
+    "main_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "secondary_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

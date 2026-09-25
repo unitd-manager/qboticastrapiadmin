@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_acf_shared_form_with_contact_info_c_b0f8536e",
+  "info": {
+    "displayName": "Form With Contact Info Contact Details"
+  },
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "location",
+        "phone",
+        "email"
+      ]
+    },
+    "heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

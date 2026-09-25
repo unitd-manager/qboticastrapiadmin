@@ -9,12 +9,18 @@
       "enum": [
         "th",
         "td"
-      ]
+      ],
+      "metadatas": {
+        "label": "Type"
+      }
     },
     "name_or_value": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.text-table-block-table-table-row-name-or-value"
+      "component": "acf-shared.text-table-block-table-table-row-name-or-value",
+      "metadatas": {
+        "label": "Name Or Value"
+      }
     }
   }
 }

@@ -5,27 +5,42 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Title"
+      }
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "background_type": {
       "type": "enumeration",
       "enum": [
         "color",
         "image"
-      ]
+      ],
+      "metadatas": {
+        "label": "Background Type"
+      }
     },
     "background_color": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Background Color"
+      }
     },
     "background_image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Background Image"
+      }
     }
   }
 }

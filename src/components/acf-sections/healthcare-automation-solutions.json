@@ -7,31 +7,46 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "display_options": {
-      "type": "json"
+      "type": "json",
+      "metadatas": {
+        "label": "Display Options"
+      }
     },
     "show_image": {
       "type": "enumeration",
       "enum": [
         "true",
         "false"
-      ]
+      ],
+      "metadatas": {
+        "label": "Show Image"
+      }
     },
     "image_position": {
       "type": "enumeration",
       "enum": [
         "left",
         "right"
-      ]
+      ],
+      "metadatas": {
+        "label": "Image Position"
+      }
     },
     "image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Image"
+      }
     },
     "text_alignment": {
       "type": "enumeration",
@@ -39,42 +54,72 @@
         "left",
         "center",
         "right"
-      ]
+      ],
+      "metadatas": {
+        "label": "Text Alignment"
+      }
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Title"
+      }
     },
     "sub_title": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Sub Title"
+      }
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "solutions": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.healthcare-automation-solutions-solutions"
+      "component": "acf-shared.healthcare-automation-solutions-solutions",
+      "metadatas": {
+        "label": "Solutions"
+      }
     },
     "common_content": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Common Content"
+      }
     },
     "button": {
       "type": "component",
       "component": "shared.menu-item",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Button"
+      }
     },
     "enable_animation": {
       "type": "enumeration",
       "enum": [
         "true",
         "false"
-      ]
+      ],
+      "metadatas": {
+        "label": "Enable Animation"
+      }
     },
     "class_name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Class Name"
+      }
     },
     "acf_id": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Acf Id"
+      }
     }
   }
 }

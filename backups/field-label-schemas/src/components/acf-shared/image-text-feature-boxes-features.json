@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_acf_shared_image_text_feature_boxes_features",
+  "info": {
+    "displayName": "Image Text Feature Boxes Features"
+  },
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

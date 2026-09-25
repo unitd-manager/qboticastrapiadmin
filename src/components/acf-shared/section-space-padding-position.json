@@ -5,10 +5,16 @@
   },
   "attributes": {
     "top": {
-      "type": "boolean"
+      "type": "boolean",
+      "metadatas": {
+        "label": "Top"
+      }
     },
     "bottom": {
-      "type": "boolean"
+      "type": "boolean",
+      "metadatas": {
+        "label": "Bottom"
+      }
     }
   }
 }

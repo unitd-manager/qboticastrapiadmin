@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_acf_shared_career_openings_section__e4d829cd",
+  "info": {
+    "displayName": "Career Openings Section Job Openings"
+  },
+  "attributes": {
+    "job_title": {
+      "type": "string"
+    },
+    "general_title": {
+      "type": "string"
+    },
+    "general_description": {
+      "type": "richtext"
+    },
+    "job_location": {
+      "type": "string"
+    },
+    "job_type": {
+      "type": "string"
+    },
+    "job_link": {
+      "type": "component",
+      "component": "shared.menu-item",
+      "repeatable": false
+    },
+    "job_section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "acf-shared.career-openings-section-job-openings-job-section"
+    }
+  }
+}

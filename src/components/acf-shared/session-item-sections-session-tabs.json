@@ -5,12 +5,18 @@
   },
   "attributes": {
     "tab_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Tab Title"
+      }
     },
     "sessions": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.session-item-sections-session-tabs-sessions"
+      "component": "acf-shared.session-item-sections-session-tabs-sessions",
+      "metadatas": {
+        "label": "Sessions"
+      }
     }
   }
 }

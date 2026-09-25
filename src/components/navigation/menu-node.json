@@ -5,17 +5,26 @@
   },
   "attributes": {
     "order": {
-      "type": "integer"
+      "type": "integer",
+      "metadatas": {
+        "label": "Order"
+      }
     },
     "item": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.menu-item"
+      "component": "shared.menu-item",
+      "metadatas": {
+        "label": "Item"
+      }
     },
     "children": {
       "type": "component",
       "repeatable": true,
-      "component": "shared.menu-item"
+      "component": "shared.menu-item",
+      "metadatas": {
+        "label": "Children"
+      }
     }
   }
 }

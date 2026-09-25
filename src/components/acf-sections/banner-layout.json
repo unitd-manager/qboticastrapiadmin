@@ -7,7 +7,10 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "page_type": {
       "type": "enumeration",
@@ -23,67 +26,106 @@
         "platform",
         "use_case",
         "best_uipath_partner"
-      ]
+      ],
+      "metadatas": {
+        "label": "Page Type"
+      }
     },
     "main_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Main Title"
+      }
     },
     "sub_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Sub Title"
+      }
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "button": {
       "type": "component",
       "component": "shared.menu-item",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Button"
+      }
     },
     "secondary_button": {
       "type": "component",
       "component": "shared.menu-item",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Secondary Button"
+      }
     },
     "inner_video": {
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "metadatas": {
+        "label": "Inner Video"
+      }
     },
     "mobile_inner_video": {
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "metadatas": {
+        "label": "Mobile Inner Video"
+      }
     },
     "image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Image"
+      }
     },
     "logo": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Logo"
+      }
     },
     "background_image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Background Image"
+      }
     },
     "banner_image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Banner Image"
+      }
     },
     "banner_two_images": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.banner-layout-banner-two-images"
+      "component": "acf-shared.banner-layout-banner-two-images",
+      "metadatas": {
+        "label": "Banner Two Images"
+      }
     }
   }
 }

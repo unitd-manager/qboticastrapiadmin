@@ -22,8 +22,8 @@ type PageType = (typeof PAGE_TYPES)[number];
 type PageEntry = Record<string, unknown>;
 type DynamicZoneComponent = Record<string, unknown> & { __component?: unknown };
 
-function pageSupportsAcf() {
-  return Boolean(strapi.contentType('api::page.page')?.attributes?.acf);
+function pageSupportsPageBuilderHashing() {
+  return true;
 }
 
 function isPageType(value: unknown): value is PageType {
@@ -85,16 +85,16 @@ function getRequestDocumentId() {
   return requestPath.match(PAGE_DOCUMENT_PATH_REGEX)?.[1] || null;
 }
 
-function mergeAcfWithPageBuilderHash(existingAcf: unknown, nextAcf: unknown, hash: string) {
+function mergePageBuilderHash(existingPageBuilderHash: unknown, nextPageBuilderHash: unknown, hash: string) {
   return {
-    ...(tryParseJsonObject(existingAcf) ?? {}),
-    ...(tryParseJsonObject(nextAcf) ?? {}),
+    ...(tryParseJsonObject(existingPageBuilderHash) ?? {}),
+    ...(tryParseJsonObject(nextPageBuilderHash) ?? {}),
     [PAGE_BUILDER_HASH_ACF_KEY]: hash,
   };
 }
 
 async function getCurrentPageState(documentId: string | null) {
-  if (!pageSupportsAcf()) {
+  if (!pageSupportsPageBuilderHashing()) {
     return null;
   }
 
@@ -104,7 +104,7 @@ async function getCurrentPageState(documentId: string | null) {
 
   const pageRow = await strapi.db
     .connection('pages')
-    .select(['id', 'document_id', 'acf'])
+    .select(['id', 'document_id'])
     .where('document_id', documentId)
     .first();
 
@@ -112,16 +112,10 @@ async function getCurrentPageState(documentId: string | null) {
     return null;
   }
 
-  const acf = tryParseJsonObject(pageRow.acf) ?? {};
-
   return {
     id: pageRow.id,
     documentId: pageRow.document_id,
-    acf,
-    pageBuilderHash:
-      typeof acf[PAGE_BUILDER_HASH_ACF_KEY] === 'string'
-        ? acf[PAGE_BUILDER_HASH_ACF_KEY]
-        : null,
+    pageBuilderHash: null,
   };
 }
 
@@ -139,24 +133,18 @@ async function optimizeUnchangedPageBuilderUpdate(entry: PageEntry) {
   const currentPageState = await getCurrentPageState(documentId);
   const incomingHash = computePageBuilderHash(incomingPageBuilder);
 
-  if (!pageSupportsAcf()) {
+  if (!pageSupportsPageBuilderHashing()) {
     return;
   }
 
   if (currentPageState?.pageBuilderHash && currentPageState.pageBuilderHash === incomingHash) {
     delete entry.pageBuilder;
 
-    if (Object.prototype.hasOwnProperty.call(entry, 'acf')) {
-      entry.acf = mergeAcfWithPageBuilderHash(currentPageState.acf, entry.acf, incomingHash);
-    }
-
     strapi.log.info(
       `[page-save-skip-builder] documentId=${documentId} reason=unchanged-pageBuilder`
     );
     return;
   }
-
-  entry.acf = mergeAcfWithPageBuilderHash(currentPageState?.acf, entry.acf, incomingHash);
 }
 
 function ensurePageType(entry: PageEntry) {

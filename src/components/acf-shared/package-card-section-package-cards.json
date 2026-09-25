@@ -19,32 +19,56 @@
         "col-md-10",
         "col-md-11",
         "col-md-12"
-      ]
+      ],
+      "metadatas": {
+        "label": "Column"
+      }
     },
     "package_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Package Title"
+      }
     },
     "package_subtitle": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Package Subtitle"
+      }
     },
     "price": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Price"
+      }
     },
     "price_note": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Price Note"
+      }
     },
     "price_plan": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Price Plan"
+      }
     },
     "features": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.package-card-section-package-cards-features"
+      "component": "acf-shared.package-card-section-package-cards-features",
+      "metadatas": {
+        "label": "Features"
+      }
     },
     "cta_button": {
       "type": "component",
       "component": "shared.menu-item",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Cta Button"
+      }
     }
   }
 }

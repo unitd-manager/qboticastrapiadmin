@@ -5,13 +5,22 @@
   },
   "attributes": {
     "label": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Label"
+      }
     },
     "url": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Url"
+      }
     },
     "targetBlank": {
-      "type": "boolean"
+      "type": "boolean",
+      "metadatas": {
+        "label": "Target Blank"
+      }
     }
   }
 }

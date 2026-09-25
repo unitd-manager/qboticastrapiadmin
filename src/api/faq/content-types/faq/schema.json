@@ -8,10 +8,16 @@
   },
   "attributes": {
     "question": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Question"
+      }
     },
     "answer": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Answer"
+      }
     }
   }
 }

@@ -5,21 +5,36 @@
   },
   "attributes": {
     "tab_tltle": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Tab Tltle"
+      }
     },
     "tab_sub_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Tab Sub Title"
+      }
     },
     "tab_description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Tab Description"
+      }
     },
     "tab_list_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Tab List Title"
+      }
     },
     "tab_list": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.healthcare-automation-tabs-tabs-tab-list"
+      "component": "acf-shared.healthcare-automation-tabs-tabs-tab-list",
+      "metadatas": {
+        "label": "Tab List"
+      }
     }
   }
 }

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_acf_shared_resource_grid_layout_items",
+  "info": {
+    "displayName": "Resource Grid Layout Items"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "button": {
+      "type": "component",
+      "component": "shared.menu-item",
+      "repeatable": false,
+      "description": "For external links → enter full URL (e.g. https://domain.com/page)\r\nFor internal links → enter a root-relative path (e.g. /page)"
+    }
+  }
+}

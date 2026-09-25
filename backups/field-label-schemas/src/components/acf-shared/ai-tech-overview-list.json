@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_acf_shared_ai_tech_overview_list",
+  "info": {
+    "displayName": "AI Tech Overview List"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

@@ -5,10 +5,16 @@
   },
   "attributes": {
     "padding_top_mobile": {
-      "type": "integer"
+      "type": "integer",
+      "metadatas": {
+        "label": "Padding Top Mobile"
+      }
     },
     "padding_bottom_mobile": {
-      "type": "integer"
+      "type": "integer",
+      "metadatas": {
+        "label": "Padding Bottom Mobile"
+      }
     }
   }
 }

@@ -5,17 +5,26 @@
   },
   "attributes": {
     "step_title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Step Title"
+      }
     },
     "step_description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Step Description"
+      }
     },
     "step_image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Step Image"
+      }
     }
   }
 }

@@ -5,14 +5,20 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Title"
+      }
     },
     "source": {
       "type": "enumeration",
       "enum": [
         "posts",
         "pages"
-      ]
+      ],
+      "metadatas": {
+        "label": "Source"
+      }
     },
     "posts_to_show": {
       "type": "enumeration",
@@ -26,11 +32,17 @@
         "most_commented",
         "random",
         "custom"
-      ]
+      ],
+      "metadatas": {
+        "label": "Posts To Show"
+      }
     },
     "posts_limit": {
       "type": "string",
-      "default": "5"
+      "default": "5",
+      "metadatas": {
+        "label": "Posts Limit"
+      }
     }
   }
 }

@@ -10,13 +10,22 @@
         "location",
         "phone",
         "email"
-      ]
+      ],
+      "metadatas": {
+        "label": "Type"
+      }
     },
     "heading": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Heading"
+      }
     },
     "content": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Content"
+      }
     }
   }
 }

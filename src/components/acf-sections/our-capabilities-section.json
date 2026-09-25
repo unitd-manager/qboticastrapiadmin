@@ -7,18 +7,30 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "our_capabilities": {
       "type": "component",
       "repeatable": true,
-      "component": "acf-shared.our-capabilities-section-our-capabilities"
+      "component": "acf-shared.our-capabilities-section-our-capabilities",
+      "metadatas": {
+        "label": "Our Capabilities"
+      }
     },
     "class_name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Class Name"
+      }
     },
     "acf_id": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Acf Id"
+      }
     }
   }
 }

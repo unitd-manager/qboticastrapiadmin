@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_acf_shared_form_with_contact_info_s_0303b585",
+  "info": {
+    "displayName": "Form With Contact Info Social Media Link"
+  },
+  "attributes": {
+    "link": {
+      "type": "component",
+      "component": "shared.menu-item",
+      "repeatable": false
+    },
+    "icon": {
+      "type": "json"
+    }
+  }
+}

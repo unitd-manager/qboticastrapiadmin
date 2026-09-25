@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_acf_shared_use_case_single_use_case_items",
+  "info": {
+    "displayName": "Use Case Single Use Case Items"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "highlight_description": {
+      "type": "richtext"
+    }
+  }
+}

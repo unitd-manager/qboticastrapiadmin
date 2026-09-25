@@ -8,13 +8,22 @@
   },
   "attributes": {
     "oldUrl": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Old Url"
+      }
     },
     "newUrl": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "New Url"
+      }
     },
     "statusCode": {
-      "type": "integer"
+      "type": "integer",
+      "metadatas": {
+        "label": "Status Code"
+      }
     }
   }
 }

@@ -12,34 +12,58 @@
   "attributes": {
     "author": {
       "type": "string",
-      "required": true
+      "required": true,
+      "metadatas": {
+        "label": "Author"
+      }
     },
     "email": {
-      "type": "email"
+      "type": "email",
+      "metadatas": {
+        "label": "Email"
+      }
     },
     "url": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Url"
+      }
     },
     "content": {
       "type": "richtext",
-      "required": true
+      "required": true,
+      "metadatas": {
+        "label": "Content"
+      }
     },
     "post": {
       "type": "relation",
       "relation": "manyToOne",
-      "target": "api::post.post"
+      "target": "api::post.post",
+      "metadatas": {
+        "label": "Post"
+      }
     },
     "parent": {
       "type": "relation",
       "relation": "manyToOne",
-      "target": "api::comment.comment"
+      "target": "api::comment.comment",
+      "metadatas": {
+        "label": "Parent"
+      }
     },
     "approved": {
       "type": "boolean",
-      "default": false
+      "default": false,
+      "metadatas": {
+        "label": "Approved"
+      }
     },
     "wpCommentId": {
-      "type": "integer"
+      "type": "integer",
+      "metadatas": {
+        "label": "Wp Comment Id"
+      }
     }
   }
 }

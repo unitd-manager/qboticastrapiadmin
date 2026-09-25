@@ -5,13 +5,22 @@
   },
   "attributes": {
     "icon": {
-      "type": "json"
+      "type": "json",
+      "metadatas": {
+        "label": "Icon"
+      }
     },
     "heading": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Heading"
+      }
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Description"
+      }
     }
   }
 }

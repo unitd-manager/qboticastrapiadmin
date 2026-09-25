@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_acf_shared_about_latest_updates_sec_763cd016",
+  "info": {
+    "displayName": "Latest Updates Section Items"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cta_button": {
+      "type": "component",
+      "component": "shared.menu-item",
+      "repeatable": false
+    }
+  }
+}

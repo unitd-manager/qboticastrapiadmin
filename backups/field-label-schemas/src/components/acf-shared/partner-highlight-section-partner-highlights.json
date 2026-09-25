@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_acf_shared_partner_highlight_sectio_7294ad59",
+  "info": {
+    "displayName": "Partner Highlight Section Partner Highlights"
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

@@ -8,17 +8,26 @@
   },
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Name"
+      }
     },
     "slug": {
       "type": "uid",
-      "targetField": "name"
+      "targetField": "name",
+      "metadatas": {
+        "label": "Slug"
+      }
     },
     "posts": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::post.post",
-      "mappedBy": "categories"
+      "mappedBy": "categories",
+      "metadatas": {
+        "label": "Posts"
+      }
     }
   }
 }

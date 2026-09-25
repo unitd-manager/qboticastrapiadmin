@@ -9,20 +9,32 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": true,
+      "metadatas": {
+        "label": "Title"
+      }
     },
     "slug": {
       "type": "uid",
       "targetField": "title",
-      "required": true
+      "required": true,
+      "metadatas": {
+        "label": "Slug"
+      }
     },
     "wpTermId": {
-      "type": "integer"
+      "type": "integer",
+      "metadatas": {
+        "label": "Wp Term Id"
+      }
     },
     "items": {
       "type": "component",
       "repeatable": true,
-      "component": "navigation.menu-node"
+      "component": "navigation.menu-node",
+      "metadatas": {
+        "label": "Items"
+      }
     }
   }
 }

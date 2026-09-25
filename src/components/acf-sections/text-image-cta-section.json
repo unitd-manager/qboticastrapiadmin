@@ -7,28 +7,40 @@
     "section_space_padding": {
       "type": "component",
       "repeatable": false,
-      "component": "acf-sections.section-space-padding"
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
+      }
     },
     "container_type": {
       "type": "enumeration",
       "enum": [
         "container",
         "container-fluid"
-      ]
+      ],
+      "metadatas": {
+        "label": "Container Type"
+      }
     },
     "show_image": {
       "type": "enumeration",
       "enum": [
         "true",
         "false"
-      ]
+      ],
+      "metadatas": {
+        "label": "Show Image"
+      }
     },
     "image_position": {
       "type": "enumeration",
       "enum": [
         "left",
         "right"
-      ]
+      ],
+      "metadatas": {
+        "label": "Image Position"
+      }
     },
     "image_col_class": {
       "type": "enumeration",
@@ -36,7 +48,10 @@
         "col-md-4",
         "col-md-5",
         "col-md-6"
-      ]
+      ],
+      "metadatas": {
+        "label": "Image Col Class"
+      }
     },
     "text_col_class": {
       "type": "enumeration",
@@ -44,7 +59,10 @@
         "col-md-6",
         "col-md-7",
         "col-md-8"
-      ]
+      ],
+      "metadatas": {
+        "label": "Text Col Class"
+      }
     },
     "vertical_align": {
       "type": "enumeration",
@@ -52,7 +70,10 @@
         "top",
         "middle",
         "bottom"
-      ]
+      ],
+      "metadatas": {
+        "label": "Vertical Align"
+      }
     },
     "text_alignment": {
       "type": "enumeration",
@@ -60,35 +81,59 @@
         "left",
         "center",
         "right"
-      ]
+      ],
+      "metadatas": {
+        "label": "Text Alignment"
+      }
     },
     "title": {
-      "type": "text"
+      "type": "text",
+      "metadatas": {
+        "label": "Title"
+      }
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "metadatas": {
+        "label": "Description"
+      }
     },
     "button": {
       "type": "component",
       "component": "shared.menu-item",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Button"
+      }
     },
     "image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "metadatas": {
+        "label": "Image"
+      }
     },
     "enable_animation": {
-  "type": "boolean",
-  "default": false
-},
+      "type": "boolean",
+      "default": false,
+      "metadatas": {
+        "label": "Enable Animation"
+      }
+    },
     "class_name": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Class Name"
+      }
     },
     "acf_id": {
-      "type": "string"
+      "type": "string",
+      "metadatas": {
+        "label": "Acf Id"
+      }
     }
   }
 }

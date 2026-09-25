@@ -7,14 +7,20 @@
     "link": {
       "type": "component",
       "component": "shared.menu-item",
-      "repeatable": false
+      "repeatable": false,
+      "metadatas": {
+        "label": "Link"
+      }
     },
     "type": {
       "type": "enumeration",
       "enum": [
         "primary-btn",
         "secondary-btn"
-      ]
+      ],
+      "metadatas": {
+        "label": "Type"
+      }
     }
   }
 }

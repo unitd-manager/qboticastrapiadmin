@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_acf_shared_session_item_sections_se_88e01cfa",
+  "info": {
+    "displayName": "Session Item Sections Session Tabs"
+  },
+  "attributes": {
+    "tab_title": {
+      "type": "string"
+    },
+    "sessions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "acf-shared.session-item-sections-session-tabs-sessions"
+    }
+  }
+}

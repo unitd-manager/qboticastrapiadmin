@@ -27,15 +27,6 @@ function createDynamicZone(components, options = {}) {
   };
 }
 
-function createSectionAttributes() {
-  return {
-    acf: {
-      type: 'json',
-      pluginOptions: HIDDEN_PLUGIN_OPTIONS,
-    },
-  };
-}
-
 function buildPageSchema() {
   return {
     kind: 'collectionType',
@@ -64,22 +55,6 @@ function buildPageSchema() {
         repeatable: false,
         component: 'shared.seo',
       },
-
-      pageType: {
-        type: 'enumeration',
-        enum: [
-          'landing',
-          'blog',
-          'about',
-          'service',
-          'career',
-          'resource',
-        ],
-        default: 'landing',
-        pluginOptions: HIDDEN_PLUGIN_OPTIONS,
-      },
-
-      ...createSectionAttributes(),
 
       pageBuilder: createDynamicZone(
         PAGE_BUILDER_COMPONENTS,

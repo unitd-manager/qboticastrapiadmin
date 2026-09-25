@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_acf_shared_common_slider_image_list",
+  "info": {
+    "displayName": "Common Slider Image List"
+  },
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
