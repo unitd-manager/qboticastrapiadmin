@@ -250,8 +250,8 @@ export default {
       ensurePageType(event.params.data);
       normalizeDynamicZones(event.params.data);
 
-      if (pageSupportsAcf() && Array.isArray(event.params.data.pageBuilder)) {
-        event.params.data.acf = mergeAcfWithPageBuilderHash(
+      if (pageSupportsPageBuilderHashing() && Array.isArray(event.params.data.pageBuilder)) {
+        event.params.data.acf = mergePageBuilderHash(
           event.params.data.acf,
           event.params.data.acf,
           computePageBuilderHash(event.params.data.pageBuilder)
