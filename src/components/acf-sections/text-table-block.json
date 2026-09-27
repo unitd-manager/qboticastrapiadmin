@@ -4,14 +4,6 @@
     "displayName": "Text Table Block"
   },
   "attributes": {
-    "section_space_padding": {
-      "type": "component",
-      "repeatable": false,
-      "component": "acf-sections.section-space-padding",
-      "metadatas": {
-        "label": "Section Space Padding"
-      }
-    },
     "main_title": {
       "type": "string",
       "metadatas": {
@@ -30,6 +22,14 @@
       "component": "acf-shared.text-table-block-table",
       "metadatas": {
         "label": "Table"
+      }
+    },
+    "section_space_padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
       }
     }
   }

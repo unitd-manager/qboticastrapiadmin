@@ -4,14 +4,6 @@
     "displayName": "Side Image Info Blocks"
   },
   "attributes": {
-    "section_space_padding": {
-      "type": "component",
-      "repeatable": false,
-      "component": "acf-sections.section-space-padding",
-      "metadatas": {
-        "label": "Section Space Padding"
-      }
-    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -28,6 +20,14 @@
       "component": "acf-shared.side-image-info-blocks-info-list",
       "metadatas": {
         "label": "Info List"
+      }
+    },
+    "section_space_padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
       }
     }
   }

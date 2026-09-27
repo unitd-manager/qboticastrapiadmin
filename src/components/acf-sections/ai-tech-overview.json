@@ -4,14 +4,6 @@
     "displayName": "AI Tech Overview"
   },
   "attributes": {
-    "section_space_padding": {
-      "type": "component",
-      "repeatable": false,
-      "component": "acf-sections.section-space-padding",
-      "metadatas": {
-        "label": "Section Space Padding"
-      }
-    },
     "container_type": {
       "type": "enumeration",
       "enum": [
@@ -126,6 +118,14 @@
       "type": "string",
       "metadatas": {
         "label": "Acf Id"
+      }
+    },
+    "section_space_padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
       }
     }
   }

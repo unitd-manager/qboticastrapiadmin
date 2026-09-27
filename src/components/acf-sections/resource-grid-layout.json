@@ -4,14 +4,6 @@
     "displayName": "Resource Grid Layout"
   },
   "attributes": {
-    "section_space_padding": {
-      "type": "component",
-      "repeatable": false,
-      "component": "acf-sections.section-space-padding",
-      "metadatas": {
-        "label": "Section Space Padding"
-      }
-    },
     "main_title": {
       "type": "text",
       "metadatas": {
@@ -56,6 +48,14 @@
       "type": "string",
       "metadatas": {
         "label": "Acf Id"
+      }
+    },
+    "section_space_padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
       }
     }
   }

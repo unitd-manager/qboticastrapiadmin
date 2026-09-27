@@ -4,14 +4,6 @@
     "displayName": "FAQ Section Block"
   },
   "attributes": {
-    "section_space_padding": {
-      "type": "component",
-      "repeatable": false,
-      "component": "acf-sections.section-space-padding",
-      "metadatas": {
-        "label": "Section Space Padding"
-      }
-    },
     "display_options": {
       "type": "json",
       "metadatas": {
@@ -36,6 +28,14 @@
       "component": "acf-shared.faq-section-block-faq-question-and-answer",
       "metadatas": {
         "label": "Faq Question And Answer"
+      }
+    },
+    "section_space_padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
       }
     }
   }

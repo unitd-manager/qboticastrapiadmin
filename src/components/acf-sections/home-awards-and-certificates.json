@@ -4,14 +4,6 @@
     "displayName": "Home Awards and Certificates"
   },
   "attributes": {
-    "section_space_padding": {
-      "type": "component",
-      "repeatable": false,
-      "component": "acf-sections.section-space-padding",
-      "metadatas": {
-        "label": "Section Space Padding"
-      }
-    },
     "main_title": {
       "type": "string",
       "metadatas": {
@@ -24,6 +16,14 @@
       "component": "acf-shared.home-awards-and-certificates-award-and-certificate-list",
       "metadatas": {
         "label": "Award And Certificate List"
+      }
+    },
+    "section_space_padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
       }
     }
   }

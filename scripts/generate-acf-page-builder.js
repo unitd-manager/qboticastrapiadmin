@@ -158,6 +158,7 @@ function createGenerator(layoutGroups) {
   function buildAttributes(fields, contextParts, parentLabel) {
     const attributes = {};
     const usedKeys = new Set();
+    let sectionSpacePadding;
 
     for (const field of fields || []) {
       if (!field || !field.name) {
@@ -169,8 +170,16 @@ function createGenerator(layoutGroups) {
       const attribute = buildAttribute(field, [...contextParts, slugify(field.name, 'field')], parentLabel);
 
       if (attribute) {
+        if (key === 'section_space_padding') {
+          sectionSpacePadding = attribute;
+          continue;
+        }
         attributes[key] = attribute;
       }
+    }
+
+    if (sectionSpacePadding) {
+      attributes.section_space_padding = sectionSpacePadding;
     }
 
     return attributes;

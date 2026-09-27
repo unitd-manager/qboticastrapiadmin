@@ -4,14 +4,6 @@
     "displayName": "Latest Post"
   },
   "attributes": {
-    "section_space_padding": {
-      "type": "component",
-      "repeatable": false,
-      "component": "acf-sections.section-space-padding",
-      "metadatas": {
-        "label": "Section Space Padding"
-      }
-    },
     "display_type": {
       "type": "enumeration",
       "enum": [
@@ -26,6 +18,14 @@
       "type": "json",
       "metadatas": {
         "label": "Select Post"
+      }
+    },
+    "section_space_padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
       }
     }
   }

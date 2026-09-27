@@ -4,14 +4,6 @@
     "displayName": "Common Slider"
   },
   "attributes": {
-    "section_space_padding": {
-      "type": "component",
-      "repeatable": false,
-      "component": "acf-sections.section-space-padding",
-      "metadatas": {
-        "label": "Section Space Padding"
-      }
-    },
     "main_title": {
       "type": "string",
       "metadatas": {
@@ -24,6 +16,14 @@
       "component": "acf-shared.common-slider-image-list",
       "metadatas": {
         "label": "Image List"
+      }
+    },
+    "section_space_padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
       }
     }
   }

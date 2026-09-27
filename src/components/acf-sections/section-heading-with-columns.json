@@ -4,14 +4,6 @@
     "displayName": "Section Heading With Columns"
   },
   "attributes": {
-    "section_space_padding": {
-      "type": "component",
-      "repeatable": false,
-      "component": "acf-sections.section-space-padding",
-      "metadatas": {
-        "label": "Section Space Padding"
-      }
-    },
     "heading_text": {
       "type": "string",
       "metadatas": {
@@ -112,6 +104,14 @@
       "type": "string",
       "metadatas": {
         "label": "Acf Id"
+      }
+    },
+    "section_space_padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
       }
     }
   }

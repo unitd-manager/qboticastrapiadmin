@@ -4,14 +4,6 @@
     "displayName": "Spacing (Height)"
   },
   "attributes": {
-    "section_space_padding": {
-      "type": "component",
-      "repeatable": false,
-      "component": "acf-sections.section-space-padding",
-      "metadatas": {
-        "label": "Section Space Padding"
-      }
-    },
     "space_height_desktop": {
       "type": "integer",
       "metadatas": {
@@ -28,6 +20,14 @@
       "type": "string",
       "metadatas": {
         "label": "Background Color"
+      }
+    },
+    "section_space_padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
       }
     }
   }

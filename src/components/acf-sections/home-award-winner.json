@@ -4,14 +4,6 @@
     "displayName": "Home Award Winner"
   },
   "attributes": {
-    "section_space_padding": {
-      "type": "component",
-      "repeatable": false,
-      "component": "acf-sections.section-space-padding",
-      "metadatas": {
-        "label": "Section Space Padding"
-      }
-    },
     "main_title": {
       "type": "text",
       "metadatas": {
@@ -24,6 +16,14 @@
       "component": "acf-shared.home-award-winner-award-winner-list",
       "metadatas": {
         "label": "Award Winner List"
+      }
+    },
+    "section_space_padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
       }
     }
   }

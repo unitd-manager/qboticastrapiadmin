@@ -4,14 +4,6 @@
     "displayName": "Banner Layout"
   },
   "attributes": {
-    "section_space_padding": {
-      "type": "component",
-      "repeatable": false,
-      "component": "acf-sections.section-space-padding",
-      "metadatas": {
-        "label": "Section Space Padding"
-      }
-    },
     "page_type": {
       "type": "enumeration",
       "enum": [
@@ -125,6 +117,14 @@
       "component": "acf-shared.banner-layout-banner-two-images",
       "metadatas": {
         "label": "Banner Two Images"
+      }
+    },
+    "section_space_padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
       }
     }
   }

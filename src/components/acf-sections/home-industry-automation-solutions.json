@@ -4,14 +4,6 @@
     "displayName": "Home Industry Automation Solutions"
   },
   "attributes": {
-    "section_space_padding": {
-      "type": "component",
-      "repeatable": false,
-      "component": "acf-sections.section-space-padding",
-      "metadatas": {
-        "label": "Section Space Padding"
-      }
-    },
     "main_title": {
       "type": "string",
       "metadatas": {
@@ -38,6 +30,14 @@
       "component": "acf-shared.home-industry-automation-solutions-main-solutions",
       "metadatas": {
         "label": "Main Solutions"
+      }
+    },
+    "section_space_padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
       }
     }
   }

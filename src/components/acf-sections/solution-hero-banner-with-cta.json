@@ -4,14 +4,6 @@
     "displayName": "Solution Hero Banner With CTA"
   },
   "attributes": {
-    "section_space_padding": {
-      "type": "component",
-      "repeatable": false,
-      "component": "acf-sections.section-space-padding",
-      "metadatas": {
-        "label": "Section Space Padding"
-      }
-    },
     "tagline": {
       "type": "string",
       "metadatas": {
@@ -76,6 +68,14 @@
       "type": "string",
       "metadatas": {
         "label": "Acf Id"
+      }
+    },
+    "section_space_padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
       }
     }
   }

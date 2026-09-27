@@ -4,14 +4,6 @@
     "displayName": "Unmapped Layout"
   },
   "attributes": {
-    "section_space_padding": {
-      "type": "component",
-      "repeatable": false,
-      "component": "acf-sections.section-space-padding",
-      "metadatas": {
-        "label": "Section Space Padding"
-      }
-    },
     "layout_type": {
       "type": "string",
       "metadatas": {
@@ -34,6 +26,14 @@
       "type": "json",
       "metadatas": {
         "label": "Raw Fields"
+      }
+    },
+    "section_space_padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
       }
     }
   }

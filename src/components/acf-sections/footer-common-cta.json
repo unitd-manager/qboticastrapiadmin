@@ -4,14 +4,6 @@
     "displayName": "Footer Common CTA"
   },
   "attributes": {
-    "section_space_padding": {
-      "type": "component",
-      "repeatable": false,
-      "component": "acf-sections.section-space-padding",
-      "metadatas": {
-        "label": "Section Space Padding"
-      }
-    },
     "display_options": {
       "type": "json",
       "metadatas": {
@@ -46,6 +38,14 @@
       ],
       "metadatas": {
         "label": "Image"
+      }
+    },
+    "section_space_padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
       }
     }
   }

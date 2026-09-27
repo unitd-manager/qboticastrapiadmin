@@ -4,14 +4,6 @@
     "displayName": "Automation CTA Block"
   },
   "attributes": {
-    "section_space_padding": {
-      "type": "component",
-      "repeatable": false,
-      "component": "acf-sections.section-space-padding",
-      "metadatas": {
-        "label": "Section Space Padding"
-      }
-    },
     "title": {
       "type": "string",
       "metadatas": {
@@ -40,6 +32,14 @@
       ],
       "metadatas": {
         "label": "Image"
+      }
+    },
+    "section_space_padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
       }
     }
   }

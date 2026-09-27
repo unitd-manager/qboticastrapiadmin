@@ -4,14 +4,6 @@
     "displayName": "Info CTA Box"
   },
   "attributes": {
-    "section_space_padding": {
-      "type": "component",
-      "repeatable": false,
-      "component": "acf-sections.section-space-padding",
-      "metadatas": {
-        "label": "Section Space Padding"
-      }
-    },
     "display_options": {
       "type": "json",
       "metadatas": {
@@ -42,6 +34,14 @@
       "repeatable": false,
       "metadatas": {
         "label": "Cta Button"
+      }
+    },
+    "section_space_padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "acf-sections.section-space-padding",
+      "metadatas": {
+        "label": "Section Space Padding"
       }
     }
   }
